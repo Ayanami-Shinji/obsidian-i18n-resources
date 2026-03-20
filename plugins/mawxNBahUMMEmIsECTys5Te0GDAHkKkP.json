@@ -1,0 +1,181 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "laser-beam",
+        "version": "1.0.0",
+        "title": "Laser beam",
+        "description": "Laser beam Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Blue laser",
+                    "target": "蓝色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Green laser",
+                    "target": "绿色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Orange laser",
+                    "target": "橙色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Yellow laser",
+                    "target": "黄色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Red laser",
+                    "target": "红色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Pink laser",
+                    "target": "粉色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Purple laser",
+                    "target": "紫色激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Toggle laser",
+                    "target": "切换激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Turn on/off laser beam",
+                    "target": "打开/关闭激光束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select laser status",
+                    "target": "选择激光状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select laser focus type",
+                    "target": "选择激光对焦类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set laser intensity (brightness)",
+                    "target": "设置激光强度（亮度）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set laser line width",
+                    "target": "设置激光线宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select laser color",
+                    "target": "选择激光颜色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust laser area size",
+                    "target": "调整激光区域大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set laser left margin",
+                    "target": "设置激光左边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set laser right margin",
+                    "target": "设置激光右边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Toggle laser beam",
+                    "target": "切换激光束"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Focus type",
+                    "target": "对焦类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Line width",
+                    "target": "线宽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Area size",
+                    "target": "区域大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Left margin",
+                    "target": "左边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Right margin",
+                    "target": "右边距"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Turn on/off laser",
+                    "target": "开启/关闭激光"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Restore default",
+                    "target": "恢复默认"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle laser",
+                    "target": "切换激光"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toggle laser focus type",
+                    "target": "切换激光聚焦类型"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

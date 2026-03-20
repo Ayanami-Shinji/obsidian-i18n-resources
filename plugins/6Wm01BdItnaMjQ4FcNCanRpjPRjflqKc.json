@@ -1,0 +1,439 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "attachment-management",
+        "version": "1.0.0",
+        "title": "Attachment Management",
+        "description": "Attachment Management Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.10.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "DEBUG is enabled",
+                    "target": "已启用 DEBUG"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select the interface language",
+                    "target": "选择界面语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select root path of attachment",
+                    "target": "选择附件根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Root folder of new attachment",
+                    "target": "新附件的根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path of attachment in root folder, available variables {{notepath}}, {{notename}}, {{parent}}",
+                    "target": "附件在根文件夹中的路径，可用变量 {{notepath}}, {{notename}}, {{parent}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Define how to name the attachment file, available variables {{dates}}, {{notename}}, {{md5}} and {{originalname}}.",
+                    "target": "定义附件文件命名方式，可用变量 {{dates}}, {{notename}}, {{md5}} 和 {{originalname}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Moment date format to use",
+                    "target": "要使用的 Moment 日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Automatically rename the attachment folder/filename when you rename the folder/filename where the corresponding md/canvas file be placed.",
+                    "target": "当你重命名对应的 md/canvas 文件所在的文件夹/文件名时，自动重命名附件文件夹/文件名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Using the extension override if you want to autorename the attachment with a specific extension (e.g. pdf or zip).",
+                    "target": "如果你想用特定扩展名自动重命名附件，请使用扩展名覆盖（如 pdf 或 zip）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Extension to override",
+                    "target": "要覆盖的扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Regex pattern to exclude certain extensions from being handled.",
+                    "target": "用于排除某些扩展名被处理的正则表达式模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Turn on this option if you want to also exclude all subfolders of the folder paths provided above.",
+                    "target": "如果还想排除上述文件夹路径的所有子文件夹，请开启此选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Extension pattern to override (e.g., pdf, docx, jpg)",
+                    "target": "要覆盖的扩展名模式（例如：pdf、docx、jpg）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Select root path of attachment for this extension",
+                    "target": "选择该扩展名的附件根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Root folder for this extension",
+                    "target": "该扩展名的根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Path of attachment in root folder for this extension",
+                    "target": "该扩展名在根文件夹中的附件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Define how to name the attachment file for this extension",
+                    "target": "定义该扩展名的附件文件命名方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择界面语言",
+                    "target": "选择界面语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择附件的根路径",
+                    "target": "选择附件的根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "新附件的根文件夹",
+                    "target": "新附件的根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "附件在根文件夹中的路径，可用变量 {{notepath}}、{{notename}}、{{parent}}",
+                    "target": "附件在根文件夹中的路径，可用变量 {{notepath}}、{{notename}}、{{parent}}"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "定义如何命名附件文件，可用变量 {{dates}}、{{notename}}、{{md5}} 和 {{originalname}}。",
+                    "target": "定义如何命名附件文件，可用变量 {{dates}}、{{notename}}、{{md5}} 和 {{originalname}}。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "使用的 Moment 日期格式",
+                    "target": "使用的 Moment 日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "当您重命名对应 md/canvas 文件所在的文件夹/文件名时，自动重命名附件文件夹/文件名。",
+                    "target": "当您重命名对应 md/canvas 文件所在的文件夹/文件名时，自动重命名附件文件夹/文件名。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果您想要对特定扩展名的附件进行自动重命名（例如 pdf 或 zip），请使用扩展名覆盖。",
+                    "target": "如果您想要对特定扩展名的附件进行自动重命名（例如 pdf 或 zip），请使用扩展名覆盖。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "要覆盖的扩展名",
+                    "target": "要覆盖的扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "用于排除某些扩展名不被处理的正则表达式模式。",
+                    "target": "用于排除某些扩展名不被处理的正则表达式模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "提供要从重命名中排除的文件夹名称的完整路径（区分大小写且不带前导斜杠 \"/\"），用分号（;）分隔。",
+                    "target": "提供要从重命名中排除的文件夹名称的完整路径（区分大小写且不带前导斜杠 \"/\"），用分号（;）分隔。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "如果您还想排除上面提供的文件夹路径的所有子文件夹，请打开此选项。",
+                    "target": "如果您还想排除上面提供的文件夹路径的所有子文件夹，请打开此选项。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "要覆盖的扩展名模式（例如：pdf、docx、jpg）",
+                    "target": "要覆盖的扩展名模式（例如：pdf、docx、jpg）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "选择此扩展名的附件根路径",
+                    "target": "选择此扩展名的附件根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "此扩展名的根文件夹",
+                    "target": "此扩展名的根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "此扩展名在根文件夹中的附件路径",
+                    "target": "此扩展名在根文件夹中的附件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "定义此扩展名的附件文件命名方式",
+                    "target": "定义此扩展名的附件文件命名方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "发生错误",
+                    "target": "发生错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "This operation is irreversible and experimental. Please backup your vault first!",
+                    "target": "此操作不可逆且为实验性功能，请先备份您的库！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "此操作不可逆且为实验性功能，请先备份您的库！",
+                    "target": "此操作不可逆且为实验性功能，请先备份您的库！"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Root path to save attachment",
+                    "target": "保存附件的根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Root folder",
+                    "target": "根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attachment path",
+                    "target": "附件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Attachment format",
+                    "target": "附件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Date format",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Automatically rename attachment",
+                    "target": "自动重命名附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Extension override",
+                    "target": "扩展名覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude extension pattern",
+                    "target": "排除扩展名模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Excluded paths",
+                    "target": "排除的路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude subpaths",
+                    "target": "排除子路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "语言",
+                    "target": "语言"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "附件保存根路径",
+                    "target": "附件保存根路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "根文件夹",
+                    "target": "根文件夹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "附件路径",
+                    "target": "附件路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "附件格式",
+                    "target": "附件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "日期格式",
+                    "target": "日期格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "自动重命名附件",
+                    "target": "自动重命名附件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "扩展名覆盖",
+                    "target": "扩展名覆盖"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "扩展名",
+                    "target": "扩展名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除扩展名模式",
+                    "target": "排除扩展名模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除路径",
+                    "target": "排除路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "排除子路径",
+                    "target": "排除子路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chinese (Simplified)",
+                    "target": "简体中文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Overriding setting",
+                    "target": "覆盖设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "pdf|docx?",
+                    "target": "pdf|docx?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "success",
+                    "source": "操作成功完成",
+                    "target": "操作成功完成"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Overriding Settings",
+                    "target": "覆盖设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Extension Override Settings",
+                    "target": "扩展名覆盖设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "附件管理设置",
+                    "target": "附件管理设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "覆盖设置",
+                    "target": "覆盖设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "扩展名覆盖设置",
+                    "target": "扩展名覆盖设置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "提示",
+                    "target": "提示"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "warning",
+                    "source": "警告",
+                    "target": "警告"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

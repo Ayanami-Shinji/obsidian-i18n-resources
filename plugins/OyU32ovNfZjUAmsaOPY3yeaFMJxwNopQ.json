@@ -1,0 +1,289 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "keep-the-rhythm",
+        "version": "1.0.0",
+        "title": "Keep the Rhythm",
+        "description": "Keep the Rhythm Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.8",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，强制高于 125 fps 的帧率不受支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error counting words:",
+                    "target": "统计单词时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid Type on Slots Codeblock",
+                    "target": "Slots 代码块中的类型无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error parsing filter expression:",
+                    "target": "解析筛选表达式时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Normalized query:",
+                    "target": "规范化查询："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error compiling evaluator:",
+                    "target": "编译评估器时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error compiling query:",
+                    "target": "编译查询时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "File does not exist:",
+                    "target": "文件不存在："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to read file:",
+                    "target": "读取文件失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed loading some data, contact the developer.",
+                    "target": "部分数据加载失败，请联系开发者。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error in onExternalSettingsChange:",
+                    "target": "onExternalSettingsChange 中的错误："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Amount of words you intend to write on a day.",
+                    "target": "你计划每天写的字数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Clicks open the daily note from that day, using Obsidian's Daily Note core plugin.",
+                    "target": "点击可打开当天的日记，使用 Obsidian 的每日笔记核心插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display the overview section in the word count heatmap.",
+                    "target": "在字数热力图中显示概览部分。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display which files were edited today and their respective word counts.",
+                    "target": "显示今天编辑了哪些文件及其对应的字数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Displays a heatmap with historic writing data.",
+                    "target": "显示包含历史写作数据的热力图。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the coloring method.",
+                    "target": "选择着色方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Colors used to paint each cell, ranges vary based on coloring mode.",
+                    "target": "用于填充每个单元格的颜色，范围随着色模式而变化。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Changes how the color of each cell is calculated.",
+                    "target": "更改单元格颜色的计算方式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enabled Languages",
+                    "target": "启用的语言"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Writing Goal",
+                    "target": "写作目标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Heatmap navigation",
+                    "target": "热力图导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show overview",
+                    "target": "显示概览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show today's entries.",
+                    "target": "显示今天的条目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show heatmap",
+                    "target": "显示热力图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Rounded Cells",
+                    "target": "圆角单元格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide Month Labels",
+                    "target": "隐藏月份标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide Weekday Labels",
+                    "target": "隐藏星期标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Coloring Mode",
+                    "target": "着色模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Intensity thresholds",
+                    "target": "强度阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Need to reopen db",
+                    "target": "Dexie: 需要重新打开数据库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Dexie: Workaround for Chrome UnknownError on open()",
+                    "target": "Dexie: 针对 Chrome 在 open() 时 UnknownError 的变通方案"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Maximum of 10 slots per view! (at least for now)",
+                    "target": "每个视图最多 10 个槽位！（至少目前如此）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File not found!",
+                    "target": "未找到文件！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "KTR: Migrating data from previous versions...",
+                    "target": "KTR: 正在从先前版本迁移数据..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "KTR: No changes to backup.",
+                    "target": "KTR: 备份无变化。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "KTR: New backup saved.",
+                    "target": "KTR: 新备份已保存。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "KTR: First backup created.",
+                    "target": "KTR: 已创建首个备份。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Change Unit",
+                    "target": "更改单位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Change Type",
+                    "target": "更改类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Toggle Unit",
+                    "target": "切换单位"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Delete entry",
+                    "target": "删除条目"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open sidebar view",
+                    "target": "打开侧边栏视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Check writing goal from previous days",
+                    "target": "查看前几天的写作目标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Confirm action",
+                    "target": "确认操作"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

@@ -1,0 +1,438 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "table-editor-obsidian",
+        "version": "1.0.0",
+        "title": "Advanced Tables",
+        "description": "Advanced Tables Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.22.1",
+        "author": "AS"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please use the buttons below:",
+                    "target": "如果此插件对您有价值，并且您希望支持持续开发，请使用下面的按钮："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading markdown-table-editor plugin",
+                    "target": "正在加载 markdown-table-editor 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Requires restart of Obsidian. If enabled, when the cursor is in a table, enter advances to the next row. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.",
+                    "target": "需要重启 Obsidian。如果启用，当光标在表格中时，Enter 键将前进到下一行。禁用此功能有助于避免与标签或中日韩（CJK）自动补全冲突。如果禁用，请在 Obsidian 热键设置中绑定“转到...”命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Requires restart of Obsidian. If enabled, when the cursor is in a table, tab/shift+tab navigate between cells. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.",
+                    "target": "需要重启 Obsidian。如果启用，当光标在表格中时，Tab/Shift+Tab 将在单元格之间导航。禁用此功能有助于避免与标签或中日韩（CJK）自动补全冲突。如果禁用，请在 Obsidian 热键设置中绑定“转到...”命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, table cells will have spaces added to match the width of the longest cell in the column.",
+                    "target": "如果启用，表格单元格将添加空格以匹配列中最长单元格的宽度。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, a button which opens the table controls toolbar will be added to the Obsidian sidebar. The toolbar can also be opened with a Hotkey. Changes only take effect on reload.",
+                    "target": "如果启用，将在 Obsidian 侧边栏中添加一个打开表格控制工具栏的按钮。工具栏也可以通过热键打开。更改仅在重新加载后生效。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bind enter to table navigation",
+                    "target": "将 Enter 键绑定到表格导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bind tab to table navigation",
+                    "target": "将 Tab 键绑定到表格导航"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pad cell width using spaces",
+                    "target": "使用空格填充单元格宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show icon in sidebar",
+                    "target": "在侧边栏显示图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Include table headers",
+                    "target": "包含表头"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Advanced Tables",
+                    "target": "高级表格"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Align:",
+                    "target": "对齐："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Move:",
+                    "target": "移动："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Edit:",
+                    "target": "编辑："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Sort/F:",
+                    "target": "排序/筛选："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Misc:",
+                    "target": "其他："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Advanced Tables: Unable to determine current editor.",
+                    "target": "高级表格：无法确定当前编辑器。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced Tables: Cursor must be in a table.",
+                    "target": "高级表格：光标必须在表格中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced Tables: Next row also bound to enter. Possibly producing double actions. See Advanced Tables settings.",
+                    "target": "高级表格：下一行也绑定到 Enter 键。可能会导致重复操作。请查看高级表格设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced Tables: Next cell also bound to tab. Possibly producing double actions. See Advanced Tables settings.",
+                    "target": "高级表格：下一个单元格也绑定到 Tab 键。可能会产生重复操作。请查看高级表格设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced Tables: Previous cell also bound to shift+tab. Possibly producing double actions. See Advanced Tables settings.",
+                    "target": "高级表格：上一个单元格也绑定到 Shift+Tab。可能会产生重复操作。请查看高级表格设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to next row",
+                    "target": "转到下一行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to next cell",
+                    "target": "转到下一个单元格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Go to previous cell",
+                    "target": "转到上一个单元格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format table at the cursor",
+                    "target": "格式化光标处的表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Format all tables in this file",
+                    "target": "格式化此文件中的所有表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert column before current",
+                    "target": "在当前列前插入列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert row before current",
+                    "target": "在当前行前插入行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move cursor out of table",
+                    "target": "将光标移出表格"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Left align column",
+                    "target": "左对齐列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Center align column",
+                    "target": "居中对齐列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Right align column",
+                    "target": "右对齐列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move column left",
+                    "target": "向左移动列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move column right",
+                    "target": "向右移动列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move row up",
+                    "target": "向上移动行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Move row down",
+                    "target": "向下移动行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete column",
+                    "target": "删除列"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete row",
+                    "target": "删除行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sort rows ascending",
+                    "target": "按升序排序行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Sort rows descending",
+                    "target": "按降序排列行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Evaluate table formulas",
+                    "target": "计算表格公式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open table controls toolbar",
+                    "target": "打开表格控制工具栏"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"0.\"+Oe(T.d))/Math.LN10+T.e+1)):new L(a+\"\")",
+                    "target": "log(\"0.\"+Oe(T.d))/Math.LN10+T.e+1)):new L(a+\"\")"
+                },
+                {
+                    "source": "log(\"reberia restar \"+$+\" a \"+D),new Error(\"Difference not supported yet\")",
+                    "target": "log(\"reberia restar \"+$+\" a \"+D),new Error(\"Difference not supported yet\")"
+                },
+                {
+                    "source": "setText(\"Include table headers\")",
+                    "target": "setText(\"Include table headers\")"
+                },
+                {
+                    "source": "setText(\"Advanced Tables\")",
+                    "target": "setText(\"Advanced Tables\")"
+                },
+                {
+                    "source": "Notice(\"Advanced Tables: Cursor must be in a table.\")",
+                    "target": "Notice(\"Advanced Tables: Cursor must be in a table.\")"
+                },
+                {
+                    "source": "log(\"loading markdown-table-editor plugin\")",
+                    "target": "log(\"loading markdown-table-editor plugin\")"
+                },
+                {
+                    "source": "Notice(\"Advanced Tables: Next row also bound to enter. Possibly producing double actions. See Advanced Tables settings.\")",
+                    "target": "Notice(\"Advanced Tables: Next row also bound to enter. Possibly producing double actions. See Advanced Tables settings.\")"
+                },
+                {
+                    "source": "Notice(\"Advanced Tables: Next cell also bound to tab. Possibly producing double actions. See Advanced Tables settings.\")",
+                    "target": "Notice(\"Advanced Tables: Next cell also bound to tab. Possibly producing double actions. See Advanced Tables settings.\")"
+                },
+                {
+                    "source": "Notice(\"Advanced Tables: Previous cell also bound to shift+tab. Possibly producing double actions. See Advanced Tables settings.\")",
+                    "target": "Notice(\"Advanced Tables: Previous cell also bound to shift+tab. Possibly producing double actions. See Advanced Tables settings.\")"
+                },
+                {
+                    "source": "setName(\"Bind enter to table navigation\")",
+                    "target": "setName(\"Bind enter to table navigation\")"
+                },
+                {
+                    "source": "setDesc('Requires restart of Obsidian. If enabled, when the cursor is in a table, enter advances to the next row. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.')",
+                    "target": "setDesc('Requires restart of Obsidian. If enabled, when the cursor is in a table, enter advances to the next row. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.')"
+                },
+                {
+                    "source": "setName(\"Bind tab to table navigation\")",
+                    "target": "setName(\"Bind tab to table navigation\")"
+                },
+                {
+                    "source": "setDesc('Requires restart of Obsidian. If enabled, when the cursor is in a table, tab/shift+tab navigate between cells. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.')",
+                    "target": "setDesc('Requires restart of Obsidian. If enabled, when the cursor is in a table, tab/shift+tab navigate between cells. Disabling this can help avoid conflicting with tag or CJK autocompletion. If disabling, bind \"Go to ...\" in the Obsidian Hotkeys settings.')"
+                },
+                {
+                    "source": "setName(\"Pad cell width using spaces\")",
+                    "target": "setName(\"Pad cell width using spaces\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, table cells will have spaces added to match the width of the longest cell in the column.\")",
+                    "target": "setDesc(\"If enabled, table cells will have spaces added to match the width of the longest cell in the column.\")"
+                },
+                {
+                    "source": "setName(\"Show icon in sidebar\")",
+                    "target": "setName(\"Show icon in sidebar\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, a button which opens the table controls toolbar will be added to the Obsidian sidebar. The toolbar can also be opened with a Hotkey. Changes only take effect on reload.\")",
+                    "target": "setDesc(\"If enabled, a button which opens the table controls toolbar will be added to the Obsidian sidebar. The toolbar can also be opened with a Hotkey. Changes only take effect on reload.\")"
+                },
+                {
+                    "source": "appendText(\"If this plugin adds value for you and you would like to help support continued development, please use the buttons below:\")",
+                    "target": "appendText(\"If this plugin adds value for you and you would like to help support continued development, please use the buttons below:\")"
+                },
+                {
+                    "source": "text: \"+JSON.stringify(C.text)),C}return null}};It.Parser=uo;It.default=uo});var zl=we(ao=>{\"",
+                    "target": "text: \"+JSON.stringify(C.text)),C}return null}};It.Parser=uo;It.default=uo});var zl=we(ao=>{\""
+                },
+                {
+                    "source": "name:\"Go to next row\"",
+                    "target": "name:\"Go to next row\""
+                },
+                {
+                    "source": "name:\"Go to next cell\"",
+                    "target": "name:\"Go to next cell\""
+                },
+                {
+                    "source": "name:\"Go to previous cell\"",
+                    "target": "name:\"Go to previous cell\""
+                },
+                {
+                    "source": "name:\"Format table at the cursor\"",
+                    "target": "name:\"Format table at the cursor\""
+                },
+                {
+                    "source": "name:\"Format all tables in this file\"",
+                    "target": "name:\"Format all tables in this file\""
+                },
+                {
+                    "source": "name:\"Insert column before current\"",
+                    "target": "name:\"Insert column before current\""
+                },
+                {
+                    "source": "name:\"Insert row before current\"",
+                    "target": "name:\"Insert row before current\""
+                },
+                {
+                    "source": "name:\"Move cursor out of table\"",
+                    "target": "name:\"Move cursor out of table\""
+                },
+                {
+                    "source": "name:\"Left align column\"",
+                    "target": "name:\"Left align column\""
+                },
+                {
+                    "source": "name:\"Center align column\"",
+                    "target": "name:\"Center align column\""
+                },
+                {
+                    "source": "name:\"Right align column\"",
+                    "target": "name:\"Right align column\""
+                },
+                {
+                    "source": "name:\"Move column left\"",
+                    "target": "name:\"Move column left\""
+                },
+                {
+                    "source": "name:\"Move column right\"",
+                    "target": "name:\"Move column right\""
+                },
+                {
+                    "source": "name:\"Move row up\"",
+                    "target": "name:\"Move row up\""
+                },
+                {
+                    "source": "name:\"Move row down\"",
+                    "target": "name:\"Move row down\""
+                },
+                {
+                    "source": "name:\"Delete column\"",
+                    "target": "name:\"Delete column\""
+                },
+                {
+                    "source": "name:\"Delete row\"",
+                    "target": "name:\"Delete row\""
+                },
+                {
+                    "source": "name:\"Sort rows ascending\"",
+                    "target": "name:\"Sort rows ascending\""
+                },
+                {
+                    "source": "name:\"Sort rows descending\"",
+                    "target": "name:\"Sort rows descending\""
+                },
+                {
+                    "source": "name:\"Evaluate table formulas\"",
+                    "target": "name:\"Evaluate table formulas\""
+                },
+                {
+                    "source": "name:\"Open table controls toolbar\"",
+                    "target": "name:\"Open table controls toolbar\""
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,3091 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-export-image",
+        "version": "1.0.0",
+        "title": "Export Image plugin",
+        "description": "Export Image plugin Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.4.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+                    "target": "forceFrameRate 需要一个介于 0 到 125 的正整数，不支持强制设置高于 125 fps 的帧率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "could not download file",
+                    "target": "无法下载文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unable to access cssRules property",
+                    "target": "无法访问 cssRules 属性"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot detach cloned iframe as it is not in the DOM anymore",
+                    "target": "无法分离克隆的 iframe，因为它已不在 DOM 中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF PubSub Error",
+                    "target": "jsPDF PubSub 错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.moveTo: Invalid arguments",
+                    "target": "jsPDF.context2d.moveTo: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.lineTo: Invalid arguments",
+                    "target": "jsPDF.context2d.lineTo: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.quadraticCurveTo: Invalid arguments",
+                    "target": "jsPDF.context2d.quadraticCurveTo: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.bezierCurveTo: Invalid arguments",
+                    "target": "jsPDF.context2d.bezierCurveTo: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.arc: Invalid arguments",
+                    "target": "jsPDF.context2d.arc: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.rect: Invalid arguments",
+                    "target": "jsPDF.context2d.rect: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.fillRect: Invalid arguments",
+                    "target": "jsPDF.context2d.fillRect: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.strokeRect: Invalid arguments",
+                    "target": "jsPDF.context2d.strokeRect: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.clearRect: Invalid arguments",
+                    "target": "jsPDF.context2d.clearRect: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.fillText: Invalid arguments",
+                    "target": "jsPDF.context2d.fillText: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.strokeText: Invalid arguments",
+                    "target": "jsPDF.context2d.strokeText: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.measureText: Invalid arguments",
+                    "target": "jsPDF.context2d.measureText: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.scale: Invalid arguments",
+                    "target": "jsPDF.context2d.scale: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.rotate: Invalid arguments",
+                    "target": "jsPDF.context2d.rotate: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.translate: Invalid arguments",
+                    "target": "jsPDF.context2d.translate: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.context2d.transform: Invalid arguments",
+                    "target": "jsPDF.context2d.transform: 参数无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Unknown source type.",
+                    "target": "未知的源类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid target.",
+                    "target": "无效的目标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Cannot duplicate - no source HTML.",
+                    "target": "无法复制 - 没有源 HTML。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Invalid margin array.",
+                    "target": "无效的边距数组。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "jsPDF.addSvgAsImage: Invalid coordinates",
+                    "target": "jsPDF.addSvgAsImage: 坐标无效"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to load image:",
+                    "target": "加载图片失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Mouse X and Y position were not provided!",
+                    "target": "未提供鼠标 X 和 Y 位置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No WrapperComponent found",
+                    "target": "未找到 WrapperComponent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error during zoom event. New transformation state was not calculated.",
+                    "target": "缩放事件期间发生错误。未计算新的变换状态。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No mouse or touch offset found",
+                    "target": "未找到鼠标或触摸偏移量"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "No ContentComponent found",
+                    "target": "未找到 ContentComponent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Detected NaN set state values",
+                    "target": "检测到 NaN 的 set state 值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to inline canvas contents, canvas is tainted",
+                    "target": "无法内联 canvas 内容，canvas 已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone canvas as it is tainted",
+                    "target": "无法克隆 canvas，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Unable to clone video as it is tainted",
+                    "target": "无法克隆视频，因为它已被污染"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning, gif stream longer than expected.",
+                    "target": "警告，gif 流长度超出预期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Warning, gif stream shorter than expected.",
+                    "target": "警告，gif 流长度短于预期。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Deprecated: Expected third argument to be a object",
+                    "target": "已弃用：期望第三个参数为一个对象"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to restore scroll position for cloned document",
+                    "target": "无法恢复克隆文档的滚动位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to clone WebGL context as it has preserveDrawingBuffer=false",
+                    "target": "无法克隆 WebGL 上下文，因为 preserveDrawingBuffer=false"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback value for",
+                    "target": "用于的回退值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "A page in a PDF can not be wider or taller than 14400 userUnit. jsPDF limits the width/height to 14400",
+                    "target": "PDF 中的页面宽度或高度不能超过 14400 userUnit。jsPDF 将宽度/高度限制为 14400"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Obsah textu",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Text content",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Contenido del texto",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Contenu du texte",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Szöveg tartalma",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Konten teks",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "テキストの内容",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "텍스트 내용",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Kandungan Teks",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Treść tekstu",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Conteúdo do texto",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Conținutul textului",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "Содержание текста",
+                    "target": "文本内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "水印文字内容",
+                    "target": "水印文字内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastavte šířku exportovaného obrázku v pixelech. Výchozí je 640px.",
+                    "target": "设置导出图片的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vyberte, zda rozdělit obrázek, a jak rozdělit. Pevná výška znamená, že každá rozdělená stránka má pevnou výšku, což může text přerušit v místě rozdělení. Rozdělit podle vodorovné čáry znamená rozdělit obrázek podle vodorovné čáry v dokumentu. Rozdělit podle odstavce znamená rozdělit obrázek podle odstavce, aby se zabránilo rozdělení odstavce do dvou obrázků a výška byla co nejbližší rozdělení výšky.",
+                    "target": "选择是否拆分图片及拆分方式。固定高度表示每个拆分页高度固定，可能会在拆分点截断文本。按水平线拆分表示按文档中的水平线拆分图片。按段落拆分表示按段落拆分图片，避免一个段落被拆成两张图片，且高度尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastaví výšku každé rozdělené stránky v pixelech. Výchozí je 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastaví překrytí mezi stránkami, aby se zabránilo náhlému přerušení obsahu. Výchozí je 40px.",
+                    "target": "设置页面之间的重叠，以避免内容被突然截断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastavte, zda zahrnout název souboru jako titulek. Když Obsidian zobrazuje dokument, zobrazí název souboru jako nadpis h1. Někdy to není žádoucí a může dojít ke zdvojení titulků.",
+                    "target": "设置是否将文件名作为标题。Obsidian 显示文档时会将文件名显示为 h1 标题。有时这并不需要，可能会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastavte, zda povolit obrázek s dvojnásobným rozlišením. Obrázky s dvojnásobným rozlišením budou vypadat ostřeji a poskytnou lepší zážitek na obrazovkách s vysokým PPI, jako jsou smartphony. Nevýhodou je však větší velikost souboru obrázků.",
+                    "target": "设置是否启用 2 倍分辨率图片。2 倍分辨率图片更清晰，在高 PPI 屏幕（如智能手机）上体验更好。但缺点是图片文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Pokud je povoleno, při exportu výběru se přeskočí konfigurační proces a exportovaný obrázek se přímo zkopíruje do schránky.",
+                    "target": "启用后，导出选中内容时将跳过配置流程，导出的图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Doporučuje se použití čtvercových obrázků",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Povolit vodoznak, podporuje textový a obrazový vodoznak.",
+                    "target": "启用水印，支持文字水印和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Nastavte typ vodoznaku, text nebo obrázek.",
+                    "target": "设置水印类型：文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indstil bredden af det eksporterede billede i pixels. Standarden er 640px.",
+                    "target": "设置导出图片的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vælg, hvordan du vil dele billedet, og hvordan du vil dele det. Fast højde betyder, at hver delt side har en fast højde, hvilket kan skære teksten af i delingsstederne. Del efter vandret linje betyder, at billedet deles efter vandrette linjer i dokumentet. Del efter afsnit betyder, at billedet deles efter afsnit, hvilket sikrer, at et afsnit ikke deles i to billeder, og højden er så tæt som muligt til delingshøjden.",
+                    "target": "选择是否拆分图片及拆分方式。固定高度表示每个拆分页高度固定，可能会在拆分点截断文本。按水平线拆分表示按文档中的水平线拆分图片。按段落拆分表示按段落拆分图片，确保段落不会被拆成两张图片，且高度尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indstiller højden af hver delt side i pixels. Standard er 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indstil om filnavnet skal inkluderes som titel. Når Obsidian viser dokumentet, vises filnavnet som en h1 titel. Nogle gange er dette ikke ønsket, og du vil få dobbelte titler.",
+                    "target": "设置是否将文件名作为标题。Obsidian 显示文档时会将文件名显示为 h1 标题。有时这并不需要，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hvis aktiveret, springes konfigurationsprocessen over, når du eksporterer valgte noter, og eksporteret billede kopieres direkte til udklipsholderen.",
+                    "target": "启用后，导出所选笔记时将跳过配置流程，导出的图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Anbefales at bruge kvadratiske billeder",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktiver vandmærke, understøtter tekst og billede vandmærker.",
+                    "target": "启用水印，支持文字水印和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Indstil typen af vandmærke, tekst eller billede.",
+                    "target": "设置水印类型：文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setzen Sie die Breite des exportierten Bildes in Pixel. Standardmäßig ist 640px.",
+                    "target": "设置导出图片的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wählen Sie, wie Sie das Bild aufteilen möchten, und wie Sie es aufteilen möchten. Die feste Höhe bedeutet, dass jede geteilte Seite eine feste Höhe hat, die möglicherweise den Text an den Aufteilungspunkten abschneidet. Die horizontale Linie bedeutet, dass das Bild nach horizontalen Linien im Dokument aufgeteilt wird. Der Absatz bedeutet, dass das Bild nach Absätzen aufgeteilt wird, um zu vermeiden, dass ein Absatz in zwei Bildern aufgeteilt wird und die Höhe so nahe wie möglich zur Aufteilungshöhe ist.",
+                    "target": "选择是否拆分图片及拆分方式。固定高度表示每个拆分页高度固定，可能会在拆分点截断文本。按水平线拆分表示按文档中的水平线拆分图片。按段落拆分表示按段落拆分图片，避免一个段落被拆成两张图片，且高度尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Legt die Höhe jeder geteilten Seite in Pixeln fest. Standard ist 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Legt den Überlappungsabstand zwischen den Seiten fest, um abrupte Inhaltsabschnitte zu vermeiden. Standard ist 40px.",
+                    "target": "设置页面之间的重叠距离，以避免内容突然截断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stellen Sie ein, ob der Dateiname als Titel einbezogen werden soll. Wenn Obsidian das Dokument anzeigt, wird der Dateiname als h1 Titel angezeigt. Manchmal ist das nicht erwünscht, und Sie erhalten doppelte Titel.",
+                    "target": "设置是否将文件名作为标题。Obsidian 显示文档时会将文件名显示为 h1 标题。有时这并不需要，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stellen Sie ein, ob Bilder mit 2x Auflösung aktiviert werden sollen. Bilder mit 2x Auflösung erscheinen schärfer und bieten eine bessere Erfahrung auf Bildschirmen mit hoher PPI, wie z.B. auf Smartphones. Der Nachteil ist jedoch, dass die Dateigröße der Bilder größer ist.",
+                    "target": "设置是否启用 2 倍分辨率图片。2 倍分辨率图片更清晰，在高 PPI 屏幕（如智能手机）上体验更好。但缺点是图片文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wenn aktiviert, wird der Konfigurationsprozess übersprungen, wenn Sie ausgewählte Notizen exportieren, und das exportierte Bild wird direkt in die Zwischenablage kopiert.",
+                    "target": "启用后，导出所选笔记时将跳过配置流程，导出的图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wasserzeichen aktivieren, unterstützt Text- und Bildwasserzeichen.",
+                    "target": "启用水印，支持文字水印和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Legen Sie den Typ des Wasserzeichens fest, Text oder Bild.",
+                    "target": "设置水印类型：文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the width of the exported image in pixel. The default is 640px.",
+                    "target": "设置导出图片的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Choose whether to split the image, and how to split. Fixed height means each split image has a fixed height, which may cut off text at the split point. Split by horizontal rule means split the image by the horizontal rule in the document. Auto split by paragraph means split the image by the paragraph, ensuring that a paragraph is not split into two images, and the height is as close as possible to the split height.",
+                    "target": "选择是否拆分图片及拆分方式。固定高度表示每个拆分图片高度固定，可能会在拆分点截断文本。按水平线拆分表示按文档中的水平线拆分图片。按段落自动拆分表示按段落拆分图片，确保段落不会被拆成两张图片，且高度尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the height of each split image in pixels. The default is 1000px.",
+                    "target": "设置每个拆分图片的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the overlap between adjacent split images to prevent content from being cut off. The default is 40px.",
+                    "target": "设置相邻拆分图片的重叠，以防内容被截断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set whether to include the file name as the title. When Obsidian displays the document, it will display the file name as an h1 title. Sometimes this is not what you want, and you will get duplicate titles.",
+                    "target": "设置是否将文件名作为标题。Obsidian 显示文档时会将文件名显示为 h1 标题。有时这并不需要，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set whether to enable 2x resolution image. Images with 2x resolution will appear sharper and provide a better experience on high PPI screens, such as those on smartphones. However, the downside is that the file size of the images is larger.",
+                    "target": "设置是否启用 2 倍分辨率图片。2 倍分辨率图片更清晰，在高 PPI 屏幕（如智能手机）上体验更好。但缺点是图片文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Default PNG format images should satisfy the majority of needs, but to better support user scenarios: 1. Support for exporting images with both normal and transparent backgrounds; 2. Support for exporting JPG images to achieve smaller file sizes, though it may not be possible to copy directly to the clipboard; 3. Support for exporting to single-page PDF format, which differs from the usual PDF paper formats, please be careful not to misuse.",
+                    "target": "默认的 PNG 格式图片应能满足大多数需求，但为更好地支持使用场景：1. 支持导出普通背景和透明背景的图片；2. 支持导出 JPG 图片以获得更小的文件大小，但可能无法直接复制到剪贴板；3. 支持导出为单页 PDF 格式，与常规 PDF 纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Whether to skip the configuration process when exporting selected content, directly copying the exported image to the clipboard.",
+                    "target": "导出选中内容时是否跳过配置流程，直接将导出的图片复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Recommend using square pictures",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Enable watermark, supportting text watermark and image watermark.",
+                    "target": "启用水印，支持文字水印和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Set the type of watermark, text or image.",
+                    "target": "设置水印类型：文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Establece el ancho de la imagen exportada en píxeles. El predeterminado es 640px.",
+                    "target": "设置导出图片的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Elige cómo dividir la imagen, y cómo dividirla. La altura fija significa que cada página dividida tiene una altura fija, lo que puede cortar el texto en los puntos de división. La división por línea horizontal significa dividir la imagen por las líneas horizontales en el documento. La división por párrafo significa dividir la imagen por párrafos, asegurando que un párrafo no se divida en dos imágenes y la altura sea lo más cercana posible a la altura de división.",
+                    "target": "选择是否拆分图片及拆分方式。固定高度表示每个拆分页高度固定，可能会在拆分点截断文本。按水平线拆分表示按文档中的水平线拆分图片。按段落拆分表示按段落拆分图片，确保一个段落不会被拆成两张图片，且高度尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Establece la altura de cada página dividida en píxeles. El predeterminado es 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Establece la sobreposición entre páginas para evitar interrupciones abruptas en el contenido. El predeterminado es 40px.",
+                    "target": "设置页面之间的重叠，以避免内容突然中断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Establece si incluir el nombre del archivo como título. Cuando Obsidian muestra el documento, muestra el nombre del archivo como un título h1. A veces esto no es lo que quieres y terminarás con títulos duplicados.",
+                    "target": "设置是否将文件名作为标题。Obsidian 显示文档时会将文件名显示为 h1 标题。有时这并不需要，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Las imágenes en formato PNG por defecto deberían satisfacer la mayoría de necesidades, pero para soportar mejor los escenarios de uso: 1. Soporte para exportar imágenes con fondos normales y transparentes; 2. Soporte para exportar imágenes en formato JPG para lograr tamaños de archivo más pequeños, aunque puede que no sea posible copiar directamente al portapapeles; 3. Soporte para exportar al formato de PDF de una sola página, que difiere de los formatos de papel PDF habituales, por favor, ten cuidado de no usarlo incorrectamente.",
+                    "target": "默认的 PNG 格式图像应能满足大多数需求，但为更好支持使用场景：1. 支持导出普通背景和透明背景的图像；2. 支持导出 JPG 图像以获得更小的文件大小，但可能无法直接复制到剪贴板；3. 支持导出为单页 PDF 格式，与常见的 PDF 纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Si está activado, se omite el proceso de configuración al exportar notas seleccionadas, y el archivo exportado se copia directamente al portapapeles.",
+                    "target": "启用后，导出选定笔记时将跳过配置流程，导出的文件会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Se recomienda usar imágenes cuadradas",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Activar la marca de agua, admite marcas de agua de texto e imagen.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Establece el tipo de marca de agua, texto o imagen.",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Définissez la largeur de l'image exportée en pixels. La valeur par défaut est 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Définit la hauteur de chaque page fractionnée en pixels. La valeur par défaut est 1000px.",
+                    "target": "设置每个分割页面的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Définissez si le nom du fichier doit être inclus comme titre. Lorsqu'Obsidian affiche le document, il affiche le nom du fichier comme un titre h1. Parfois, ce n'est pas ce que vous souhaitez, et vous obtiendrez des titres en double.",
+                    "target": "设置是否将文件名包含为标题。Obsidian 显示文档时会将文件名作为 h1 标题显示。有时这并非所需，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Définissez si l'image en résolution 2x doit être activée. Les images en résolution 2x apparaîtront plus nettes et offriront une meilleure expérience sur les écrans à haute PPI, tels que ceux des smartphones. Cependant, l'inconvénient est que la taille du fichier des images est plus grande.",
+                    "target": "设置是否启用 2x 分辨率图像。2x 分辨率图像会更清晰，并在高 PPI 屏幕（如智能手机）上提供更好的体验。但缺点是图像文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "L'utilisation d'images carrées est recommandée",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Activer le filigrane, supporte le filigrane texte et image.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Définissez le type de filigrane, texte ou image.",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Állítsd be az exportált kép szélességét pixelben. Az alapértelmezett érték 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Válaszd ki, hogyan szeretnéd felosztani a képet, és hogyan szeretnéd felosztani. A rögzített magasság azt jelenti, hogy a felosztott képek mindegyike egy rögzített magassággal rendelkezik, amely lehet, hogy levágja a szöveget a felosztási pontokban. A vízszintes szabvány azt jelenti, hogy a kép a dokumentum vízszintes szabványai szerint oszlik meg. Az automatikus felosztás azt jelenti, hogy a kép a bekezdések szerint oszlik meg, hogy elkerüld a bekezdés levágását, és a magasság a lehető legközelebb legyen a felosztási magassághoz.",
+                    "target": "选择如何分割图像。固定高度表示每个分割页面都具有固定高度，可能会在分割点裁剪文本。水平线分割表示按文档中的水平线分割图像。自动分割表示按段落分割图像，以避免段落被截断，并使高度尽可能接近分割高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Állítsd be az egyes felosztott képek magasságát pixelben. Az alapértelmezett érték 1000px.",
+                    "target": "设置每个分割图像的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Állítsd be a szomszédos felosztott képek átfedését pixelben, hogy elkerüld a tartalom levágását. Az alapértelmezett érték 40px.",
+                    "target": "设置相邻分割图像的重叠高度（像素），以避免内容被裁剪。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Állítsd be, hogy engedélyezve legyen-e a 2x felbontású kép. A 2x felbontású képek élesebbnek tűnnek, és jobb felhasználói élményt nyújtanak magas PPI-jű kijelzőkön, mint amilyenek a smartphone-ok. Azonban a hátránya, hogy a képfájlok mérete nagyobb lesz.",
+                    "target": "设置是否启用 2x 分辨率图像。2x 分辨率图像看起来更清晰，并在高 PPI 屏幕（如智能手机）上提供更好的体验。但缺点是图像文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ha engedélyezve van, a konfigurációs folyamat figyelmen kívül lesz hagyva, amikor kiválasztott jegyzetek exportálásra kerülnek, és az exportált kép közvetlenül a vágólapra másolódik.",
+                    "target": "启用后，导出选定笔记时将忽略配置流程，导出的图像会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Négyzetes képek használata ajánlott",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vízjel engedélyezése, támogat szöveges és képes vízjeleket.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Állítsd be a vízjel típusát, szöveg vagy kép.",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Atur lebar gambar yang diekspor dalam piksel. Default adalah 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setel tinggi setiap halaman yang dibahagikan dalam piksel. Default adalah 1000px.",
+                    "target": "设置每个分割页面的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setel overlapping antara halaman untuk menghindari konten yang terputus secara tiba-tiba. Default adalah 40px.",
+                    "target": "设置页面间的重叠以避免内容突然断开。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Atur apakah nama file akan disertakan sebagai judul. Ketika Obsidian menampilkan dokumen, itu akan menampilkan nama file sebagai judul h1. Kadang ini tidak diinginkan, dan Anda akan mendapat judul ganda.",
+                    "target": "设置是否将文件名包含为标题。Obsidian 显示文档时会将文件名作为 h1 标题显示。有时这并非所需，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Jika diaktifkan, proses konfigurasi akan diabaikan saat mengekspor catatan yang dipilih, dan gambar yang diekspor akan langsung disalin ke clipboard.",
+                    "target": "启用后，导出选定笔记时将忽略配置流程，导出的图像会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Disarankan menggunakan gambar persegi",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Mengaktifkan watermark, mendukung watermark teks dan gambar.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Atur tipe watermark, teks atau gambar.",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ピクセル単位でエクスポートされる画像の幅を設定します。デフォルトは640pxです。",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "画像を分割する方法を選択します。固定高さは各分割ページが固定の高さを持ち、テキストが分割点で切断される可能性があります。水平線分割はドキュメント内の水平線に沿って画像を分割します。段落分割は段落に沿って画像を分割して、段落が2つの画像に分割されるのを防ぎ、分割高さに最も近い高さにします。",
+                    "target": "选择图像的分割方式。固定高度表示每个分割页面都有固定高度，文本可能在分割点被截断。水平线分割表示沿着文档中的水平线分割图像。段落分割表示沿段落分割图像，以避免段落被分成两张图，并使高度尽可能接近分割高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "各分割ページの高さをピクセル単位で設定します。デフォルトは1000pxです。",
+                    "target": "设置每个分割页面的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "コンテンツが急に切れないように、ページ間の重複パディングを設定します。デフォルトは40pxです。",
+                    "target": "设置页面间的重叠内边距，防止内容突然断开。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ファイル名をタイトルとして含むかどうかを設定します。Obsidianがドキュメントを表示する時、ファイル名をh1タイトルとして表示します。これは望ましくない場合もあり、タイトルが重複することがあります。",
+                    "target": "设置是否将文件名包含为标题。Obsidian 显示文档时会将文件名作为 h1 标题显示。有时这并非所需，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "2倍の解像度の画像を有効にするかどうかを設定します。2倍の解像度の画像はより鮮明に見え、高PPIの画面（スマートフォンなど）でより良い体験を提供します。ただし、画像のファイルサイズが大きくなるというデメリットがあります。",
+                    "target": "设置是否启用 2 倍分辨率图像。2 倍分辨率图像更清晰，并在高 PPI 屏幕（如智能手机）上提供更好的体验。但缺点是图像文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "デフォルトのPNG形式の画像でほとんどのニーズを満たすはずですが、ユーザーシナリオをより良くサポートするために：1. 通常の背景および透明背景の画像をエクスポートするサポート；2. JPG画像をエクスポートしてファイルサイズを小さくするサポート、ただしクリップボードに直接コピーすることはできないかもしれません；3. 単一ページのPDF形式にエクスポートするサポート、通常のPDF紙の形式とは異なりますので、誤用しないように注意してください。",
+                    "target": "默认的 PNG 格式图像应能满足大多数需求，但为更好支持使用场景：1. 支持导出普通背景和透明背景的图像；2. 支持导出 JPG 图像以缩小文件大小，但可能无法直接复制到剪贴板；3. 支持导出为单页 PDF 格式，与常见的 PDF 纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "正方形の画像の使用を推奨",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "選択した内容をエクスポートする際に設定プロセスをスキップし、エクスポートされた画像を直接クリップボードにコピーします。",
+                    "target": "导出所选内容时跳过配置流程，并将导出的图像直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ウォーターマークを有効にする、テキストウォーターマークと画像ウォーターマークをサポート。",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "ウォーターマークのタイプを設定します、テキストまたは画像。",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "픽셀 단위로 내보낼 이미지의 너비를 설정하십시오. 기본값은 640px입니다.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "이미지를 분할하는 방법을 선택합니다. 고정 높이는 각 분할된 페이지가 고정된 높이를 가지며, 텍스트가 분할 지점에서 잘릴 수 있습니다. 수평 라인 분할은 문서 내의 수평 라인에 따라 이미지를 분할합니다. 문단 분할은 문단에 따라 이미지를 분할하여 문단이 두 개의 이미지로 분할되지 않도록 하고 분할 높이에 가장 가까운 높이를 유지합니다.",
+                    "target": "选择图像的分割方式。固定高度表示每个分割页面都有固定高度，文本可能在分割点被截断。水平线分割表示沿文档中的水平线分割图像。段落分割表示沿段落分割图像，避免段落被分成两张图，并保持高度尽量接近分割高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "각 분할된 페이지의 높이를 픽셀 단위로 설정합니다. 기본값은 1000px입니다.",
+                    "target": "设置每个分割页面的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "페이지 간의 중첩 여백을 설정하여 내용이 갑자기 끊기는 것을 방지합니다. 기본값은 40px입니다.",
+                    "target": "设置页面间的重叠边距，防止内容突然断开。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "파일 이름을 제목으로 포함할지 여부를 설정합니다. Obsidian이 문서를 표시할 때 파일 이름을 h1 제목으로 표시합니다. 때때로 이것은 원하지 않는 것일 수 있으며 제목이 중복될 수 있습니다.",
+                    "target": "设置是否将文件名包含为标题。Obsidian 显示文档时会将文件名作为 h1 标题显示。有时这并非所需，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "2배 해상도 이미지를 활성화할지 여부를 설정합니다. 2배 해상도의 이미지는 더 선명해 보이고, 예를 들어 스마트폰과 같은 고PPI 화면에서 더 나은 경험을 제공합니다. 그러나 단점은 이미지 파일 크기가 더 크다는 것입니다.",
+                    "target": "设置是否启用 2 倍分辨率图像。2 倍分辨率图像更清晰，并在高 PPI 屏幕（如智能手机）上提供更好的体验。但缺点是图像文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "기본 PNG 형식 이미지는 대부분의 요구를 충족해야 하지만 사용자 시나리오를 더 잘 지원하기 위해: 1. 일반 및 투명 배경의 이미지 내보내기 지원; 2. JPG 이미지를 내보내어 파일 크기를 줄이는 지원, 클립보드에 직접 복사할 수는 없을 수도 있음; 3. 일반적인 PDF 용지 형식과 다른 단일 페이지 PDF 형식으로 내보내기 지원, 잘못 사용하지 않도록 주의해 주십시오.",
+                    "target": "默认的 PNG 格式图像应能满足大多数需求，但为更好支持使用场景：1. 支持导出普通背景和透明背景的图像；2. 支持导出 JPG 图像以减小文件大小，但可能无法直接复制到剪贴板；3. 支持导出为单页 PDF 格式，与常见的 PDF 纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "선택 내용을 내보낼 때 설정 프로세스를 건너뛰고 내보낸 이미지를 직접 클립보드에 복사합니다.",
+                    "target": "导出所选内容时跳过配置流程，并将导出的图像直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "정사각형 이미지 사용을 권장합니다",
+                    "target": "建议使用正方形图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "워터마크를 활성화하며, 텍스트 및 이미지 워터마크를 지원합니다.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "워터마크 유형을 설정합니다, 텍스트 또는 이미지.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tetapkan lebar imej yang dieksport dalam piksel. Lalai adalah 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tetapkan tinggi setiap halaman yang dibahagikan dalam piksel. Lalai adalah 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sett overlapp mellom sider for å unngå brutt innhold. Standard er 40px.",
+                    "target": "设置页面之间的重叠以避免内容断裂。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Menggunakan gambar persegi disarankan",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktifkan watermark, menyokong watermark teks dan imej.",
+                    "target": "启用水印，支持文本和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Tetapkan jenis watermark, teks atau imej.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stel de breedte van de geëxporteerde afbeelding in pixels in. De standaard is 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Kies hoe je de afbeelding wilt delen, en hoe je de afbeelding wilt delen. De hoge standaard betekent dat elke gedeelde pagina een vaste hoogte heeft, wat mogelijk tekst kan afsnijden op de splitsingspunten. De horizontale regel betekent dat de afbeelding wordt gedeeld volgens de horizontale regels in het document. De paragraaf betekent dat de afbeelding wordt gedeeld volgens de paragrafen, wat ervoor zorgt dat een paragraaf niet wordt gedeeld in twee afbeeldingen en de hoogte zo dicht mogelijk bij de splitsingshoogte is.",
+                    "target": "选择如何拆分图像。固定高度表示每个拆分页高度固定，可能在拆分点截断文字。水平线表示按文档中的水平线拆分图像。段落表示按段落拆分，确保一个段落不会被拆成两张图，并使高度尽量接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stel de hoogte van elke pagina in pixels in. De standaard is 1000px.",
+                    "target": "设置每页高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stel in of de bestandsnaam moet worden opgenomen als titel. Wanneer Obsidian het document weergeeft, wordt de bestandsnaam weergegeven als een h1 titel. Soms is dit niet wat je wilt, en krijg je dubbele titels.",
+                    "target": "设置是否将文件名作为标题包含。当 Obsidian 显示文档时，文件名会作为 h1 标题显示。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stel in of de afbeelding met 2x resolutie moet worden ingeschakeld. Afbeeldingen met 2x resolutie zien er scherper uit en bieden een betere ervaring op schermen met hoge PPI, zoals die van smartphones. Het nadeel is echter dat de bestandsgrootte van de afbeeldingen groter is.",
+                    "target": "设置是否启用 2x 分辨率图像。2x 分辨率图像更清晰，在高 PPI 屏幕（如智能手机）上体验更好，但缺点是文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Het gebruik van vierkante afbeeldingen wordt aanbevolen",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Schakel watermerk in, ondersteunt tekst- en afbeeldingwatermerken.",
+                    "target": "启用水印，支持文本和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Stel het type watermerk in, tekst of afbeelding.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Angi bredden på det eksporterte bildet i piksler. Standarden er 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Velg hvordan du vil dele bildet, og hvordan du vil dele det. Fast høyde betyr at hver delt side har en fast høyde, som kan kutte teksten på delingsstederne. Vannrett linje betyr at bildet deles langs vannrette linjer i dokumentet. Paragraf betyr at bildet deles langs paragrafene, som sikrer at et avsnitt ikke deles i to bilder og høyden er så nær som mulig til delingshøyden.",
+                    "target": "选择如何拆分图像。固定高度表示每个拆分页高度固定，可能在拆分点截断文字。水平线表示按文档中的水平线拆分图像。段落表示按段落拆分，确保一个段落不会被拆成两张图，并使高度尽量接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sett høyden på hver side delt i piksler. Standard er 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Angi om filnavnet skal inkluderes som tittel. Når Obsidian viser dokumentet, vises filnavnet som en h1 tittel. Noen ganger er dette ikke ønsket, og du vil få dupliserte titler.",
+                    "target": "设置是否将文件名作为标题包含。当 Obsidian 显示文档时，文件名会作为 h1 标题显示。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Standard PNG-formatbilder bør tilfredsstille de fleste behov, men for bedre å støtte brukerscenarier: 1. Støtte for å eksportere bilder med både normal og gjennomsiktig bakgrunn; 2. Støtte for å eksportere JPG-bilder for å oppnå mindre filstørrelser, selv om det kanskje ikke er mulig å kopiere direkte til utklippstavlen; 3. Støtte for eksport til enkelt-side PDF-format, som er forskjellig fra de vanlige PDF-papirformatene, vær forsiktig så du ikke misbruker.",
+                    "target": "默认 PNG 格式图片应能满足大多数需求，但为更好支持用户场景：1. 支持导出普通与透明背景的图片；2. 支持导出 JPG 以获得更小文件大小，但可能无法直接复制到剪贴板；3. 支持导出单页 PDF 格式，与常见 PDF 纸张格式不同，请勿滥用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Hvis aktiv, springes konfigurasjonsprosessen over, når du eksporterer valgte noter, og eksporteret bilde kopieres direkte til utklippstavlen.",
+                    "target": "启用后，导出选定笔记时将跳过配置流程，导出图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Det anbefales å bruke kvadratiske bilder",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Aktiver vannmerke, støtter tekst- og bildevannmerker.",
+                    "target": "启用水印，支持文本和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Sett typen av vannmerke, tekst eller bilde.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustaw szerokość eksportowanego obrazu w pikselach. Domyślnie jest 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Wybierz sposób podziału obrazu, w tym wysokość strony, przekrywanie między stronami i tryb podziału.",
+                    "target": "选择图像拆分方式，包括页面高度、页面间重叠和拆分模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustawia wysokość każdej strony podzielonej w pikselach. Domyślnie jest 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustawia przekrywanie między stronami, aby uniknąć nagłego przerwania treści. Domyślnie jest 40px.",
+                    "target": "设置页面之间的重叠以避免内容突然中断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustaw, czy nazwa pliku powinna być uwzględniona jako tytuł. Gdy Obsidian wyświetla dokument, wyświetla nazwę pliku jako tytuł h1. Czasami nie jest to pożądane i możesz otrzymać zduplikowane tytuły.",
+                    "target": "设置是否将文件名作为标题包含。当 Obsidian 显示文档时，文件名会作为 h1 标题显示。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustaw, czy obraz o rozdzielczości 2x ma być włączony. Obrazy o rozdzielczości 2x wyglądają ostrzej i zapewniają lepsze doświadczenie na ekranach o wysokiej PPI, takich jak te w smartfonach. Jednak wadą jest większy rozmiar pliku obrazów.",
+                    "target": "设置是否启用 2x 分辨率图像。2x 分辨率图像更清晰，在高 PPI 屏幕（如智能手机）上体验更好，但缺点是文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Jeśli jest włączony, pominięty zostanie proces konfiguracji podczas eksportowania wybranych notatek, a eksportowane obrazy zostaną bezpośrednio skopiowane do schowka.",
+                    "target": "启用后，导出选定笔记时将跳过配置流程，导出图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Zaleca się używanie zdjęć kwadratowych",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Włącz znak wodny, obsługuje znaki wodne tekstowe i obrazkowe.",
+                    "target": "启用水印，支持文本和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Ustaw typ znaku wodnego, tekst lub obraz.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Define a sobreposição entre páginas para evitar cortes abruptos de conteúdo. O padrão é 40px.",
+                    "target": "设置页面之间的重叠以避免内容被突然截断。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Defina se o nome do arquivo deve ser incluído como título. Quando o Obsidian exibe o documento, ele mostra o nome do arquivo como um título h1. Às vezes, isso não é desejado e você terá títulos duplicados.",
+                    "target": "设置是否将文件名作为标题包含。当 Obsidian 显示文档时，文件名会作为 h1 标题显示。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Recomenda-se usar imagens quadradas",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează lățimea imaginii exportate în pixeli. Implicit este 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Alegeți modul de divizare a imaginii, în funcție de nevoile dumneavoastră.",
+                    "target": "根据需要选择图像拆分方式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează înălțimea fiecărei pagini divizate în pixeli. Implicit este 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认值为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează suprapunerea dintre pagini pentru a evita un rupt brusc de conținut. Implicit este 40px.",
+                    "target": "设置页面之间的重叠以避免内容突然断裂。默认值为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează dacă numele fișierului trebuie inclus ca titlu. Când Obsidian afișează documentul, afișează numele fișierului ca un titlu h1. Uneori acest lucru nu este dorit și veți obține titluri duplicate.",
+                    "target": "设置是否将文件名作为标题包含。当 Obsidian 显示文档时，文件名会作为 h1 标题显示。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează dacă imaginea cu rezoluție 2x trebuie activată. Imaginile cu rezoluție 2x vor apărea mai clare și oferă o experiență mai bună pe ecranele cu PPI ridicat, cum ar fi cele de pe smartphone-uri. Cu toate acestea, dezavantajul este că mărimea fișierului de imagine este mai mare.",
+                    "target": "设置是否启用 2x 分辨率图像。2x 分辨率图像更清晰，在高 PPI 屏幕（如智能手机）上体验更好，但缺点是文件更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Imaginile în format PNG implicit ar trebui să satisfacă majoritatea nevoilor, dar pentru a susține mai bine scenariile utilizatorilor: 1. Suport pentru exportul imaginilor cu fundaluri normale și transparente; 2. Suport pentru exportul imaginilor JPG pentru a obține dimensiuni mai mici ale fișierului, deși s-ar putea să nu fie posibilă copierea directă în clipboard; 3. Suport pentru exportul în format PDF de o singură pagină, care diferă de formatele de hârtie PDF obișnuite, vă rugăm să fiți atenți să nu-l utilizați incorect.",
+                    "target": "默认 PNG 格式图片应能满足大多数需求，但为更好支持用户场景：1. 支持导出普通与透明背景的图片；2. 支持导出 JPG 以获得更小文件大小，但可能无法直接复制到剪贴板；3. 支持导出单页 PDF 格式，与常见 PDF 纸张格式不同，请勿滥用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Dacă este activat, se va omite procesul de configurare atunci când se exportă notele selectate, iar imaginea exportată se va copia direct în clipboard.",
+                    "target": "启用后，导出选定笔记时将跳过配置流程，导出图片会直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Se recomandă utilizarea imaginilor pătrate",
+                    "target": "建议使用方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Activează filigranul, suportă filigrane text și imagine.",
+                    "target": "启用水印，支持文本和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Setează tipul de filigran, text sau imagine.",
+                    "target": "设置水印类型，文本或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Установите ширину экспортируемого изображения в пикселях. По умолчанию 640px.",
+                    "target": "设置导出图像的宽度（像素）。默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Выберите способ разделения изображения, в том числе высоту страницы, перекрытие между страницами и режим разделения.",
+                    "target": "选择图像拆分方式，包括页面高度、页面间重叠和拆分模式。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Устанавливает высоту каждой разделенной страницы в пикселях. По умолчанию 1000px.",
+                    "target": "设置每个拆分页的高度（像素）。默认 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Устанавливает перекрытие между страницами, чтобы избежать резкого обрыва содержимого. По умолчанию 40px.",
+                    "target": "设置页面之间的重叠，以避免内容突然截断。默认 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Установите, следует ли включать имя файла в качестве заголовка. Когда Obsidian отображает документ, он отображает имя файла в качестве заголовка h1. Иногда это не то, что вы хотите, и вы получите дублирующиеся заголовки.",
+                    "target": "设置是否将文件名作为标题。当 Obsidian 显示文档时，会将文件名作为 h1 标题。有时这不是你想要的，会导致标题重复。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Установите, следует ли включать изображение с разрешением 2x. Изображения с разрешением 2x будут выглядеть более четкими и обеспечат лучший опыт на экранах с высокой PPI, таких как смартфоны. Однако недостаток заключается в том, что размер файла изображений будет больше.",
+                    "target": "设置是否包含 2x 分辨率图像。2x 图像更清晰，在高 PPI 屏幕（如智能手机）体验更好，但文件大小会更大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Изображения в формате PNG по умолчанию должны удовлетворить большинство потребностей, но для лучшей поддержки пользовательских сценариев: 1. Поддержка экспорта изображений с обычными и прозрачными фонами; 2. Поддержка экспорта изображений в формате JPG для уменьшения размера файла, хотя возможно, что невозможно будет скопировать напрямую в буфер обмена; 3. Поддержка экспорта в формат одностраничного PDF, который отличается от обычных форматов бумаги PDF, пожалуйста, будьте осторожны, чтобы не использовать его неправильно.",
+                    "target": "默认 PNG 图片应能满足大多数需求，但为更好支持用户场景：1. 支持导出普通背景与透明背景的图片；2. 支持导出 JPG 图片以减小文件大小，但可能无法直接复制到剪贴板；3. 支持导出为单页 PDF 格式，这与常规 PDF 纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Если включено, процесс настройки будет пропущен при экспорте выбранных заметок, и экспортированное изображение будет скопировано непосредственно в буфер обмена.",
+                    "target": "若启用，导出所选笔记时将跳过配置过程，导出的图片将直接复制到剪贴板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Рекомендуется использовать квадратные изображения",
+                    "target": "建议使用正方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Включить водяной знак, поддерживает текстовый и изображенческий водяные знаки.",
+                    "target": "启用水印，支持文字和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Установите тип водяного знака, текст или изображение.",
+                    "target": "设置水印类型：文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置导出图片的宽度，默认值为 640px。",
+                    "target": "设置导出图片的宽度，默认值为 640px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "选择是否拆分图片，以及如何拆分。固定高度表示每个拆分图片的高度固定，可能在拆分处截断文字，按分隔线拆分表示按文档中的 hr 元素拆分，按段落自动拆分表示拆分时确保一个段落不会拆分到两张图片中，且尽可能接近拆分高度。",
+                    "target": "选择是否拆分图片，以及如何拆分。固定高度表示每个拆分图片的高度固定，可能在拆分处截断文字，按分隔线拆分表示按文档中的 hr 元素拆分，按段落自动拆分表示拆分时确保一个段落不会拆分到两张图片中，且尽可能接近拆分高度。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置每个拆分图片的高度（像素）。默认为 1000px。",
+                    "target": "设置每个拆分图片的高度（像素）。默认为 1000px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置相邻两个拆分图片的重叠（像素），防止内容被截断。默认为 40px。",
+                    "target": "设置相邻两个拆分图片的重叠（像素），防止内容被截断。默认为 40px。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置是否包含文件名作为标题。Obsidian 展示文档时，会把文件名作为 h1 标题，有时候并不符合预期，产生标题重复的情况。",
+                    "target": "设置是否包含文件名作为标题。Obsidian 展示文档时，会把文件名作为 h1 标题，有时候并不符合预期，产生标题重复的情况。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置是否启用 2x 分辨率图片。启用后，图片会显示得更清晰，在高 PPI 屏幕上体验更好，如智能手机。但缺点是图片文件大小会变大。",
+                    "target": "设置是否启用 2x 分辨率图片。启用后，图片会显示得更清晰，在高 PPI 屏幕上体验更好，如智能手机。但缺点是图片文件大小会变大。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "默认的 png 格式图片应该满足绝大多数需求，但为了更好地支持用户场景：1. 支持导出正常背景与透明背景的；图片；2. 支持导出 jpg 图片以获得更小的图片大小，但可能无法直接复制到剪切板；3. 支持导出成单页 pdf 功能，这与通常 pdf 的纸张格式不同，请注意不要误用。",
+                    "target": "默认的 png 格式图片应该满足绝大多数需求，但为了更好地支持用户场景：1. 支持导出正常背景与透明背景的；图片；2. 支持导出 jpg 图片以获得更小的图片大小，但可能无法直接复制到剪切板；3. 支持导出成单页 pdf 功能，这与通常 pdf 的纸张格式不同，请注意不要误用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "导出选中内容时是否要跳过配置过程，直接把导出的图片复制到剪切板。",
+                    "target": "导出选中内容时是否要跳过配置过程，直接把导出的图片复制到剪切板。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "建议使用正方形图片",
+                    "target": "建议使用正方形图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "启用水印，支持文字水印和图片水印。",
+                    "target": "启用水印，支持文字水印和图片水印。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "设置水印类型，文字或图片。",
+                    "target": "设置水印类型，文字或图片。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Nenalezeny žádné obrázky",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Ingen billeder fundet",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Kein Bild gefunden",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No image found",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "No se encontraron imágenes",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Aucune image trouvée",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "画像が見つかりません",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "이미지를 찾을 수 없음",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Geen afbeeldingen gevonden",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Ingen bilder funnet",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Nie znaleziono obrazów",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Nicio imagine găsită",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "Изображения не найдены",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "empty",
+                    "source": "没有找到图片",
+                    "target": "未找到图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Výchozí šířka exportovaného obrázku",
+                    "target": "导出图片默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Režim rozdělení",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Výška stránky",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Překrytí",
+                    "target": "重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Zahrnout název souboru jako titulek",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Povolit obrázek s dvojnásobným rozlišením",
+                    "target": "启用 2x 分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Zobrazit metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Rychlý export výběru",
+                    "target": "快速导出选中内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Povolit vodoznak",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Typ vodoznaku",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL obrázku",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Standard eksportbilledbredde",
+                    "target": "导出图片默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Sidehøjde",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Inkluder filnavn som titel",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktiver billede med 2x opløsning",
+                    "target": "启用 2x 分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vis metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Hurtig eksport valgt",
+                    "target": "已选择快速导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktivér vandmærke",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vandmærke type",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Standardmäßige exportierte Bildbreite",
+                    "target": "默认导出图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Seitenhöhe",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Überlappungsabstand",
+                    "target": "重叠间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Dateinamen als Titel einbeziehen",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bild mit 2x Auflösung aktivieren",
+                    "target": "启用2x分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Metadaten anzeigen",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Schnellauswahl exportieren",
+                    "target": "快速导出选区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Wasserzeichen aktivieren",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Default exported image width",
+                    "target": "默认导出图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Split mode",
+                    "target": "分割模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Split image height",
+                    "target": "分割图像高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Split image overlap",
+                    "target": "分割图像重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Include file name as title",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable 2x resolution image",
+                    "target": "启用2x分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Show metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Quick export selection",
+                    "target": "快速导出选区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Enable watermark",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Watermark type",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Image url",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ancho de imagen exportada por defecto",
+                    "target": "默认导出图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Método de división",
+                    "target": "分割方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Altura de la página",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Sobreposición",
+                    "target": "重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Incluir nombre de archivo como título",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activar imagen con resolución 2x",
+                    "target": "启用2x分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Mostrar metadatos",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Exportar selección rápido",
+                    "target": "快速导出选区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activar marca de agua",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tipo de marca de agua",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL de la imagen",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Largeur d'image exportée par défaut",
+                    "target": "默认导出图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Hauteur de page",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Inclure le nom du fichier comme titre",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activer l'image en résolution 2x",
+                    "target": "启用2x分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Afficher les métadonnées",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activer le filigrane",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Type de filigrane",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL de l'image",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Alapértelmezett exportált képszelesség",
+                    "target": "默认导出图像宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Felosztás módja",
+                    "target": "分割方式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Felosztott kép magassága",
+                    "target": "分割图像高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Felosztott képek átfedése",
+                    "target": "分割图像重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Fájlnév hozzáadása címként",
+                    "target": "将文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "2x felbontású kép engedélyezése",
+                    "target": "启用2x分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Metaadatok megjelenítése",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Gyors exportálás kiválasztásra",
+                    "target": "快速导出选区"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vízjel engedélyezése",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vízjel típusa",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Kép URL",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Lebar gambar ekspor default",
+                    "target": "默认导出图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Mode ekspor gambar",
+                    "target": "图片导出模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tinggi halaman",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Termasuk nama file sebagai judul",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktifkan gambar resolusi 2x",
+                    "target": "启用2倍分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tampilkan metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ekspor cepat",
+                    "target": "快速导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktifkan watermark",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tipe watermark",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL gambar",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "エクスポートされる画像のデフォルト幅",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "分割モード",
+                    "target": "分割模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ページの高さ",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "重複パディング",
+                    "target": "重叠内边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ファイル名をタイトルとして含む",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "2倍の解像度の画像を有効にする",
+                    "target": "启用2倍分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "メタデータを表示",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "選択した内容を迅速にエクスポート",
+                    "target": "快速导出所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ウォーターマークを有効にする",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "ウォーターマークのタイプ",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "画像URL",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "내보낼 이미지의 기본 너비",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "분할 모드",
+                    "target": "分割模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "페이지 높이",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "중첩 여백",
+                    "target": "重叠边距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "파일 이름을 제목으로 포함",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "2배 해상도 이미지 활성화",
+                    "target": "启用2倍分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "메타데이터 표시",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "선택 내용 빠르게 내보내기",
+                    "target": "快速导出所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "워터마크 활성화",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "워터마크 유형",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "이미지 URL",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Lebar Imej Eksport Lalai",
+                    "target": "默认导出图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tinggi Halaman",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Termasuk Nama Fail Sebagai Tajuk",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktifkan imej resolusi 2x",
+                    "target": "启用2倍分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Papar Metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Eksport cepat",
+                    "target": "快速导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Jenis Watermark",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL Imej",
+                    "target": "图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Standaard geëxporteerde afbeeldingsbreedte",
+                    "target": "默认导出图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Hoogte van de pagina",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activeer afbeelding met 2x resolutie",
+                    "target": "启用2倍分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Metadata weergeven",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Selectie snel exporteren",
+                    "target": "快速导出所选内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Watermerk inschakelen",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Type watermerk",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Standard eksportbredde for bilde",
+                    "target": "默认导出图片宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Høyde på side",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Inkluder filnavn som tittel",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktiver bilde med 2x oppløsning",
+                    "target": "启用 2x 分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Eksportere valgt",
+                    "target": "导出所选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Aktiver vannmerke",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Type vannmerke",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bilde URL",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Domyślna szerokość eksportowanego obrazu",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tryb podziału",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Wysokość strony",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Dołącz nazwę pliku jako tytuł",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Włącz obraz o rozdzielczości 2x",
+                    "target": "启用 2x 分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pokaż metadane",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Eksportuj szybki",
+                    "target": "快速导出"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Włącz znak wodny",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Typ znaku wodnego",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL obrazu",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Modo de divisão",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Altura da página",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Sobreposição",
+                    "target": "重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Incluir nome do arquivo como título",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Mostrar metadados",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Exportar seleção rápida",
+                    "target": "导出快速选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ativar marca d'água",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tipo de marca d'água",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Lățimea implicită a imaginii exportate",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Modul de divizare",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Înălțimea paginii",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Include numele de fișier ca titlu",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activează imaginea cu rezoluție 2x",
+                    "target": "启用 2x 分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Afișează metadatele",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Exportă selecție rapidă",
+                    "target": "导出快速选择"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Activează filigranul",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tipul de filigran",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL imagine",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Стандартная ширина экспортируемого изображения",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Режим разделения",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Высота страницы",
+                    "target": "页面高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Перекрытие",
+                    "target": "重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Включить имя файла в качестве заголовка",
+                    "target": "包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Включить изображение с разрешением 2x",
+                    "target": "启用 2x 分辨率图像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Показать метаданные",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Экспортировать выбранное",
+                    "target": "导出所选"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Включить водяной знак",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Тип водяного знака",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "URL изображения",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "导出图片的默认宽度",
+                    "target": "导出图片的默认宽度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "拆分模式",
+                    "target": "拆分模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "拆分图片高度",
+                    "target": "拆分图片高度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "拆分图片重叠",
+                    "target": "拆分图片重叠"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "是否包含文件名作为标题",
+                    "target": "是否包含文件名作为标题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "启用 2x 分辨率图片",
+                    "target": "启用 2x 分辨率图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "显示 metadata",
+                    "target": "显示元数据"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "快速导出选中内容",
+                    "target": "快速导出选中内容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "启用水印",
+                    "target": "启用水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "水印类型",
+                    "target": "水印类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "图片 url",
+                    "target": "图片 URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Jméno autora",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Author name",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nombre del autor",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nom de l'auteur",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Szerző neve",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nama penulis",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "著者名",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "작성자 이름",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nama Penulis",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nazwa autora",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Nome do autor",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Numele autorului",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Имя автора",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "作者名",
+                    "target": "作者名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "请输入图片URL",
+                    "target": "请输入图片URL"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Søg",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Keresés",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "検索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "검색",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Søk",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Caută",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "Поиск",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "搜索",
+                    "target": "搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Szöveg",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "テキスト",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "텍스트",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Текст",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文字",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "png(no background)",
+                    "target": "png(无背景)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Github: ",
+                    "target": "Github: "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exportovat obrázek",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Rozdělit obrázek",
+                    "target": "分割图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Formát výstupního souboru",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Informace o autorovi",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eksportér billede",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Del billede",
+                    "target": "分割图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Output filformat",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vandmærke",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bild exportieren",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bild aufteilen",
+                    "target": "分割图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ausgabeformat der Datei",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Export Image",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Split Image",
+                    "target": "分割图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Output file format",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Author info",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exportar como imagen",
+                    "target": "导出为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dividir imagen",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Formato del archivo de salida",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Información del autor",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Marca de agua",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exporter en image",
+                    "target": "导出为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Fractionner l'image",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Format de fichier de sortie",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Info auteur",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Képként exportálás",
+                    "target": "导出为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kép felosztás",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Kimeneti fájl formátum",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Szerzői információ",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Vízjel",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Ekspor Gambar",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Format file keluaran",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Info Penulis",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "画像をエクスポート",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "画像分割",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "出力ファイル形式",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "著者情報",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "アバター",
+                    "target": "头像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "ウォーターマーク",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "이미지로 내보내기",
+                    "target": "导出为图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "이미지 분할",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "출력 파일 형식",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "작성자 정보",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "아바타",
+                    "target": "头像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "워터마크",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eksport Imej",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Format Fail Output",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Afbeelding exporteren",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Afbeelding delen",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eksporter bilde",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Bilde deling",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Utgående filformat",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Eksport obrazu",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Podział obrazu",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Format pliku wyjściowego",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Informacje o autorze",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Znak wodny",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Formato do arquivo de saída",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Informação do Autor",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Marca d'água",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Exportă imagine",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Divizare imagine",
+                    "target": "拆分图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Formatul fișierului de ieșire",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Informații autor",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Экспорт изображения",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Разделение изображения",
+                    "target": "图片拆分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Формат выходного файла",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Информация об авторе",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Аватар",
+                    "target": "头像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Водяной знак",
+                    "target": "水印"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "导出图片",
+                    "target": "导出图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "图片拆分",
+                    "target": "图片拆分"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "输出文件格式",
+                    "target": "输出文件格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "作者信息",
+                    "target": "作者信息"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "头像",
+                    "target": "头像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "水印",
+                    "target": "水印"
+                }
+            ],
+            "regex": []
+        }
+    }
+}
