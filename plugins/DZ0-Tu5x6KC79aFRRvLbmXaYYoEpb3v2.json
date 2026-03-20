@@ -1,0 +1,517 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-read-it-later",
+        "version": "1.0.0",
+        "title": "ReadItLater",
+        "description": "ReadItLater Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.11.4",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Website not parseable",
+                    "target": "无法解析网站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "**** grabArticle ****",
+                    "target": "**** grabArticle ****"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "No body found in document. Abort.",
+                    "target": "文档中未找到 body。中止。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Starting grabArticle loop",
+                    "target": "开始 grabArticle 循环"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Candidate:",
+                    "target": "候选项："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Moving child out:",
+                    "target": "移出子节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Looking at sibling node:",
+                    "target": "查看兄弟节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Sibling has score",
+                    "target": "兄弟节点有评分"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Appending node:",
+                    "target": "追加节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Altering sibling:",
+                    "target": "修改兄弟节点："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "to div.",
+                    "target": "到 div。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Data table because found data-y descendant",
+                    "target": "数据表，因为找到了 data-y 子元素"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Cleaning Conditionally",
+                    "target": "有条件清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Evaluating similarity of header:",
+                    "target": "正在评估标题相似度："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Append to existing",
+                    "target": "追加到现有内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter valid directory name. For nested directory use this format: Directory A/Directory B. If no directory is entered, new note will be created in vault root.",
+                    "target": "请输入有效的目录名称。嵌套目录请使用此格式：Directory A/Directory B。如果未输入目录，新笔记将创建在库根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter valid directory name. For nested directory use this format: Directory A/Directory B. If no directory is entered, new note will be created in Vault root.",
+                    "target": "请输入有效的目录名称。嵌套目录请使用此格式：Directory A/Directory B。如果未输入目录，新笔记将创建在库根目录。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, new note will open in current workspace",
+                    "target": "若启用，新笔记将在当前工作区打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, new note will open in new tab",
+                    "target": "若启用，新笔记将在新标签页打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Applied when note with the same filename already exists",
+                    "target": "当已存在同名文件的笔记时适用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Delimiter for batch list of notes",
+                    "target": "笔记批量列表的分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format of the %date% variable. NOTE: do not use symbols forbidden in file names.",
+                    "target": "%date% 变量的格式。注意：不要使用文件名中禁止的符号。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Format of the %date% variable for content",
+                    "target": "用于内容的 %date% 变量格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, share menu will be extended with shortcut to create note directly from it. Requires plugin reload or Obsidian restart to apply change.",
+                    "target": "启用后，分享菜单将扩展一个快捷方式，可直接从中创建笔记。需要重载插件或重启 Obsidian 才能应用更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If entered, Youtube related content types will use Youtube API to fetc the data.",
+                    "target": "如果填写，YouTube 相关内容类型将使用 YouTube API 获取数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Images from article will be downloaded to the assets directory (Desktop App feature only). To dynamically change destination directory you can use variables. Check variables reference to learn more.",
+                    "target": "文章中的图片将下载到 assets 目录（仅桌面应用功能）。要动态更改目标目录，可使用变量。查看变量参考了解更多。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, post replies will be saved.",
+                    "target": "启用后，将保存帖子回复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Media attachments will be downloaded to the assets directory (Desktop App feature only). To dynamically change destination directory you can use variables. Check variables reference to learn more.",
+                    "target": "媒体附件将下载到 assets 目录（仅桌面应用功能）。要动态更改目标目录，可使用变量。查看变量参考了解更多。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Image will be downloaded to the assets directory (Desktop App feature only). To dynamically change destination directory you can use variables. Check variables reference to learn more.",
+                    "target": "图片将下载到 assets 目录（仅桌面应用功能）。要动态更改目标目录，可使用变量。查看变量参考了解更多。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, replies of toot will be saved.",
+                    "target": "启用后，将保存嘟文的回复。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inbox directory",
+                    "target": "收件箱目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Assets directory",
+                    "target": "资源目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open new note in current workspace",
+                    "target": "在当前工作区打开新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open new note in new tab",
+                    "target": "在新标签页打开新笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Duplicate note filename behavior",
+                    "target": "重复笔记文件名行为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Batch note creation delimiter",
+                    "target": "批量创建笔记分隔符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format string",
+                    "target": "日期格式字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Date format string in content",
+                    "target": "内容中的日期格式字符串"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Extend share menu",
+                    "target": "扩展分享菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Youtube Data API v3 key",
+                    "target": "YouTube Data API v3 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Readable content type slug",
+                    "target": "可读内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download images",
+                    "target": "下载图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download images to note directory",
+                    "target": "将图片下载到笔记目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Youtube content type slug",
+                    "target": "YouTube 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Youtube channel content type slug",
+                    "target": "YouTube 频道内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "X.com content type slug",
+                    "target": "X.com 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bluesky content type slug",
+                    "target": "Bluesky 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save replies",
+                    "target": "保存回复"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Stack Exchange content type slug",
+                    "target": "Stack Exchange 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download media attachments",
+                    "target": "下载媒体附件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download media attachments to note directory",
+                    "target": "将媒体附件下载到笔记目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pinterest content type slug",
+                    "target": "Pinterest 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Download image",
+                    "target": "下载图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Mastodon content type slug",
+                    "target": "Mastodon 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vimeo content type slug",
+                    "target": "Vimeo 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Bilibili content type slug",
+                    "target": "Bilibili 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "TikTok content type slug",
+                    "target": "TikTok 内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Nonreadable content type slug",
+                    "target": "不可读内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Text Snippet content type slug",
+                    "target": "文本片段内容类型标识"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum file path length",
+                    "target": "最大文件路径长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum file name length",
+                    "target": "最大文件名长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Do not ask again",
+                    "target": "不再询问"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Defaults to vault root directory",
+                    "target": "默认使用库根目录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Duplicate notes detected",
+                    "target": "检测到重复笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "fallback value for",
+                    "target": "的回退值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error in map modifier:",
+                    "target": "映射修饰符出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Error evaluating argument:",
+                    "target": "评估参数时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Unable to parse subscribers count.",
+                    "target": "无法解析订阅者数量。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Maximum file path length must be a number.",
+                    "target": "最大文件路径长度必须为数字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Maximum file name length must be a number.",
+                    "target": "最大文件名长度必须为数字。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "@mozilla/readability considers this document to unlikely be readerable.",
+                    "target": "@mozilla/readability 认为此文档不太可能可读。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "New Line",
+                    "target": "新行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Append to the existing note",
+                    "target": "追加到现有笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create from clipboard",
+                    "target": "从剪贴板创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create from batch in clipboard",
+                    "target": "从剪贴板批量创建"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert at the cursor position",
+                    "target": "在光标位置插入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Content Types",
+                    "target": "内容类型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Settings for each content. Click on caret to expand.",
+                    "target": "每种内容的设置。点击插入符号展开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Readable Article",
+                    "target": "可读文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "YouTube channel",
+                    "target": "YouTube 频道"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Stack Exchange",
+                    "target": "Stack Exchange"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Nonreadable Article",
+                    "target": "不可读文章"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text Snippet",
+                    "target": "文本片段"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

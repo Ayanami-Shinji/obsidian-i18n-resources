@@ -1,0 +1,97 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "recent-files-obsidian",
+        "version": "1.0.0",
+        "title": "Recent Files",
+        "description": "Recent Files Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.7.6",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If this plugin adds value for you and you would like to help support continued development, please use the buttons below:",
+                    "target": "如果这个插件对你有价值并且你愿意支持持续开发，请使用下方按钮："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum number of filenames to keep in the list.",
+                    "target": "列表中保留的文件名最大数量。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Omitted pathname patterns",
+                    "target": "忽略的路径名模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Omitted frontmatter-tag patterns",
+                    "target": "忽略的 frontmatter 标签模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Omit bookmarked files",
+                    "target": "忽略已书签的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Update list when file is:",
+                    "target": "当文件处于以下状态时更新列表："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "List length",
+                    "target": "列表长度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "^daily/\n\\\\.png$\nfoobar.*baz",
+                    "target": "^daily/\n\\\\.png$\nfoobar.*baz"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "ignore\narchive/a/b",
+                    "target": "ignore\narchive/a/b"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Clear list",
+                    "target": "清空列表"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find a file with that name",
+                    "target": "无法找到该名称的文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "List length must be a positive integer",
+                    "target": "列表长度必须是正整数"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

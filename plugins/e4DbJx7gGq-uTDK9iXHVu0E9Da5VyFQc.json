@@ -1,0 +1,67 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-image-toolkit",
+        "version": "1.0.0",
+        "title": "Image Toolkit",
+        "description": "Image Toolkit Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[oit] Image toolkit locale not found",
+                    "target": "[oit] 未找到图像工具包语言包"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "copy text error",
+                    "target": "复制文本出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "obsidian-image-toolkit: oit-*-container-view has not been initialized!",
+                    "target": "obsidian-image-toolkit: oit-*-container-view 尚未初始化！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[oit] Cannot init container",
+                    "target": "[oit] 无法初始化容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[oit] Reset view mode: %s",
+                    "target": "[oit] 重置视图模式：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[oit] Reset view mode to: %s",
+                    "target": "[oit] 将视图模式重置为：%s"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading %s plugin v%s ...",
+                    "target": "正在加载 %s 插件 v%s ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "popout leaf:",
+                    "target": "弹出叶子："
+                }
+            ],
+            "regex": []
+        }
+    }
+}

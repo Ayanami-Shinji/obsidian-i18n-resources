@@ -1,0 +1,781 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-weread-plugin",
+        "version": "1.0.0",
+        "title": "Weread",
+        "description": "Weread Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.15.1",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "confirm",
+                    "source": "模板已修改但未保存，确定要关闭吗？",
+                    "target": "模板已修改但未保存，确定要关闭吗？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "get book detail error",
+                    "target": "获取图书详情失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "拷贝微信读书Cookie失败",
+                    "target": "拷贝微信读书Cookie失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步微信读书笔记异常",
+                    "target": "同步微信读书笔记异常"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[weread plugin] setting user name=>",
+                    "target": "[weread plugin] 设置用户名=>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[weread plugin] setting user vid=>",
+                    "target": "[weread plugin] 设置用户 vid=>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "--------init cookie------",
+                    "target": "--------初始化 cookie------"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[weread plugin] cookie已失效，清理cookie...",
+                    "target": "[weread plugin] cookie已失效，清理cookie..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "sync 公众号：",
+                    "target": "同步公众号："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "sync 公众号 result",
+                    "target": "同步公众号结果"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "get daily note path",
+                    "target": "获取每日笔记路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": " size:",
+                    "target": " 大小:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[weread plugin] sync note book error",
+                    "target": "[weread plugin] 同步笔记本错误"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "weread cookie expire retry refresh cookie... ",
+                    "target": "weread cookie 过期，重试刷新 cookie... "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "微信读书未登录或者用户异常，请重新登录, http status code:",
+                    "target": "微信读书未登录或者用户异常，请重新登录, http status code:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "weread login success, redirect to weread shelf",
+                    "target": "weread 登录成功，重定向到 weread 书架"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "weread logout success, clear cookies...",
+                    "target": "weread 退出登录成功，清除 cookies..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[weread plugin] new note count limit",
+                    "target": "[weread plugin] 新笔记数量限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "load weread plugin",
+                    "target": "加载 weread 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "syncing Weread note finish",
+                    "target": "同步 Weread 笔记完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "unloading weread plugin",
+                    "target": "正在卸载 weread 插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "确定",
+                    "target": "确定"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "选择",
+                    "target": "选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "登录",
+                    "target": "登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "注销",
+                    "target": "注销"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "拷贝Cookie",
+                    "target": "拷贝Cookie"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "编辑模板",
+                    "target": "编辑模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择Obsidian Vault中微信读书笔记存放的位置，例如：/ 或 Books/Weread",
+                    "target": "请选择Obsidian Vault中微信读书笔记存放的位置，例如：/ 或 Books/Weread"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请填写不同步的bookId，bookId可在meta信息中找到，多本书使用逗号「，」隔开",
+                    "target": "请填写不同步的bookId，bookId可在meta信息中找到，多本书使用逗号「，」隔开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启此选项会将同步公众号文章到单独的笔记中",
+                    "target": "开启此选项会将同步公众号文章到单独的笔记中"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启此选项会阅读数据写入frontmatter",
+                    "target": "开启此选项会阅读数据写入frontmatter"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "开启此选项会笔记中的 #标签 转换为：[[标签]]",
+                    "target": "开启此选项会笔记中的 #标签 转换为：[[标签]]"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择Daily Notes文件夹",
+                    "target": "请选择Daily Notes文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请填写Daily Notes文件名格式，支持官方Daily Notes插件的格式，比如：YYYY-MM-DD \t\t\t\t 和 Periodic Notes的嵌套格式，比如 YYYY/[W]ww/YYYY-MM-DD",
+                    "target": "请填写Daily Notes文件名格式，支持官方Daily Notes插件的格式，比如：YYYY-MM-DD \t\t\t\t 和 Periodic Notes的嵌套格式，比如 YYYY/[W]ww/YYYY-MM-DD"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请填写Daily Notes中希望读书笔记插入的区间，使用前记得修改Daily Notes模板🫡, 💥注意: 区间之内的内容会被覆盖，请不要在区间内修改内容，",
+                    "target": "请填写Daily Notes中希望读书笔记插入的区间，使用前记得修改Daily Notes模板🫡, 💥注意: 区间之内的内容会被覆盖，请不要在区间内修改内容，"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择按照哪个维度对笔记文件进行分类",
+                    "target": "请选择按照哪个维度对笔记文件进行分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "你选择你喜欢的文件名模板，重复的书会在文件名后加上ID",
+                    "target": "你选择你喜欢的文件名模板，重复的书会在文件名后加上ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "是否移除书名中的括号及其内部文字（注：谨慎启用，可能导致重名）",
+                    "target": "是否移除书名中的括号及其内部文字（注：谨慎启用，可能导致重名）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如文件名包含下列任意文本，则不移除括号。每行一个关键词。",
+                    "target": "如文件名包含下列任意文本，则不移除括号。每行一个关键词。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "划线数量小于该值的笔记将不会被同步",
+                    "target": "划线数量小于该值的笔记将不会被同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用，则章节内没有划线也将展示章节标题",
+                    "target": "如果启用，则章节内没有划线也将展示章节标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "CookieCloud 配置",
+                    "target": "CookieCloud 配置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "服务器地址",
+                    "target": "服务器地址"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "用户KEY",
+                    "target": "用户KEY"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "端对端加密密码",
+                    "target": "端对端加密密码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记保存位置",
+                    "target": "笔记保存位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "书籍黑名单",
+                    "target": "书籍黑名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "登录微信读书",
+                    "target": "登录微信读书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步公众号文章?",
+                    "target": "同步公众号文章?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "保存阅读元数据?",
+                    "target": "保存阅读元数据?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "将标签转换为双链？",
+                    "target": "将标签转换为双链？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "是否保存笔记到 DailyNotes？",
+                    "target": "是否保存笔记到 DailyNotes？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily Notes文件夹",
+                    "target": "Daily Notes文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Daily Notes Format",
+                    "target": "Daily Notes 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在特定区间之内插入",
+                    "target": "在特定区间之内插入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件夹分类",
+                    "target": "文件夹分类"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件名模板",
+                    "target": "文件名模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "移除书名中的括号内容",
+                    "target": "移除书名中的括号内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "括号移除白名单",
+                    "target": "括号移除白名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记模板设置",
+                    "target": "笔记模板设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "笔记划线数量最小值",
+                    "target": "笔记划线数量最小值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "展示空白章节标题？",
+                    "target": "展示空白章节标题？"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "登录方式",
+                    "target": "登录方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "请输入内容",
+                    "target": "请输入内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：/ 或 Books/Weread",
+                    "target": "例如：/ 或 Books/Weread"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "例如：/ 或 Daily Notes",
+                    "target": "例如：/ 或 Daily Notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "选择或搜索文件夹路径",
+                    "target": "选择或搜索文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "微信读书未登录，请先在电脑端登录！",
+                    "target": "微信读书未登录，请先在电脑端登录！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "查看控制台日志: 使用以下快捷键快速打开控制台，查看本插件以及其他插件的运行日志",
+                    "target": "查看控制台日志: 使用以下快捷键快速打开控制台，查看本插件以及其他插件的运行日志"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "登录微信读书~",
+                    "target": "登录微信读书~"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "注销微信读书，点击头像选择->退出登录",
+                    "target": "注销微信读书，点击头像选择->退出登录"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "同步微信读书笔记",
+                    "target": "同步微信读书笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "强制同步微信读书笔记",
+                    "target": "强制同步微信读书笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在新标签页打开微信读书",
+                    "target": "在新标签页打开微信读书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "在窗口打开微信读书",
+                    "target": "在窗口打开微信读书"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "同步当前读书笔记",
+                    "target": "同步当前读书笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: set-cookie-parser appears to have been called on a request object. It is designed to parse Set-Cookie headers from responses, not Cookie headers from requests. Set the option {silent: true} to suppress this warning.",
+                    "target": "警告：set-cookie-parser 似乎在请求对象上被调用。它用于解析响应中的 Set-Cookie 头，而不是请求中的 Cookie 头。设置选项 {silent: true} 可抑制此警告。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Native DOM parser encountered an error during parse",
+                    "target": "原生 DOM 解析器在解析过程中遇到错误"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "weread front matter invalid",
+                    "target": "weread 前置信息无效"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "当前笔记元数据缺少，同步失败!",
+                    "target": "当前笔记元数据缺少，同步失败!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信读书笔记同步开始!",
+                    "target": "微信读书笔记同步开始!"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信读书笔记同步中, 请稍后！",
+                    "target": "微信读书笔记同步中, 请稍后！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请检查 CookieCloud 配置",
+                    "target": "请检查 CookieCloud 配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CookieCloud 获取失败，请检查配置",
+                    "target": "CookieCloud 获取失败，请检查配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CookieCloud 获取微信读书登录信息失败，请检查配置",
+                    "target": "CookieCloud 获取微信读书登录信息失败，请检查配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CookieCloud 获取失败，请检查配置或网络连接",
+                    "target": "CookieCloud 获取失败，请检查配置或网络连接"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "解密失败，请检查配置",
+                    "target": "解密失败，请检查配置"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "CookieCloud 获取 cookie 成功",
+                    "target": "CookieCloud 获取 cookie 成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "cookie已过期，尝试刷新Cookie成功",
+                    "target": "cookie已过期，尝试刷新Cookie成功"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "尝试刷新Cookie失败",
+                    "target": "尝试刷新Cookie失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "长时间未登录，Cookie已失效，请重新扫码登录！",
+                    "target": "长时间未登录，Cookie已失效，请重新扫码登录！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信读书未登录或者用户异常，请在设置中重新登录！",
+                    "target": "微信读书未登录或者用户异常，请在设置中重新登录！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "微信读书未登录或者用户异常，请在电脑端重新登录！",
+                    "target": "微信读书未登录或者用户异常，请在电脑端重新登录！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch weread notebook reviews . Please check your Cookies and try again.",
+                    "target": "获取微信读书笔记评论失败。请检查您的 Cookies 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch weread notebook chapters . Please check your Cookies and try again.",
+                    "target": "获取微信读书笔记章节失败。请检查您的 Cookies 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "获取微信读书阅读进度信息失败，请检查您的 Cookies 并重试。",
+                    "target": "获取微信读书阅读进度信息失败，请检查您的 Cookies 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to fetch weread notebook read info . Please check your Cookies and try again.",
+                    "target": "获取微信读书笔记阅读信息失败。请检查您的 Cookies 并重试。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "加载微信读书登录页面失败",
+                    "target": "加载微信读书登录页面失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "清除 Cookie",
+                    "target": "清除 Cookie"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入端对端加密密码",
+                    "target": "请输入端对端加密密码"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入用户KEY",
+                    "target": "请输入用户KEY"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "请输入服务器地址",
+                    "target": "请输入服务器地址"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "模板已保存！",
+                    "target": "模板已保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "模板语法错误，请检查后再保存！",
+                    "target": "模板语法错误，请检查后再保存！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拷贝Cookie到剪切板成功！",
+                    "target": "拷贝Cookie到剪切板成功！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "拷贝Cookie到剪切板失败！",
+                    "target": "拷贝Cookie到剪切板失败！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在同步微信读书笔记，请勿重复点击",
+                    "target": "正在同步微信读书笔记，请勿重复点击"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "同步微信读书笔记异常,请打开控制台查看详情",
+                    "target": "同步微信读书笔记异常,请打开控制台查看详情"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "content",
+                    "source": "这是一部名副其实的可以影响大众一生的文化经典。冯友兰先生以宏观开阔的视野对中国哲学进行了深入浅出的讲解，融会了史与思的智慧结晶。",
+                    "target": "这是一部名副其实的可以影响大众一生的文化经典。冯友兰先生以宏观开阔的视野对中国哲学进行了深入浅出的讲解，融会了史与思的智慧结晶。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "header",
+                    "source": ":is(h1, h2, h3, h4, h5, h6)",
+                    "target": ":is(h1, h2, h3, h4, h5, h6)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "同步微信读书笔记",
+                    "target": "同步微信读书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "强制同步微信读书笔记",
+                    "target": "强制同步微信读书笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在新标签页打开微信读书",
+                    "target": "在新标签页打开微信读书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "在新窗口打开微信读书",
+                    "target": "在新窗口打开微信读书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "input:is(:not([type!='']), [type=text])",
+                    "target": "input:is(:not([type!='']), [type=text])"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📝 模板编辑器",
+                    "target": "📝 模板编辑器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "取消",
+                    "target": "取消"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "保存",
+                    "target": "保存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📄 模板编辑 (Nunjucks)",
+                    "target": "📄 模板编辑 (Nunjucks)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "👁️ 实时预览",
+                    "target": "👁️ 实时预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "✂️ 自动去空白",
+                    "target": "✂️ 自动去空白"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "📝 Markdown渲染",
+                    "target": "📝 Markdown渲染"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "设置微信读书插件",
+                    "target": "设置微信读书插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CMD (⌘) + OPTION (⌥) + I",
+                    "target": "CMD (⌘) + OPTION (⌥) + I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CTRL + SHIFT + I",
+                    "target": "CTRL + SHIFT + I"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "中国哲学简史",
+                    "target": "中国哲学简史"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "书名",
+                    "target": "书名"
+                }
+            ],
+            "regex": []
+        }
+    }
+}

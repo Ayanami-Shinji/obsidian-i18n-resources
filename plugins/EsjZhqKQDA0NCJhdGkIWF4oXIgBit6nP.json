@@ -1,0 +1,294 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-opener",
+        "version": "1.0.0",
+        "title": "Opener",
+        "description": "Opener Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "2.1.2",
+        "author": "AS"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Opener-Plugin: Strange floating object found (no window)",
+                    "target": "Opener-插件：发现奇怪的浮动对象（无窗口）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Opener-Plugin: Strange floating object found (no tabs)",
+                    "target": "Opener-插件：发现奇怪的浮动对象（无标签页）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Opener-Plugin: Strange floating object found (no leaf)",
+                    "target": "Opener-插件：发现奇怪的浮动对象（无视图）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable to open new files in a new tab (or existing tab, if it was previously opened). Disable for default Obsidian behavior.",
+                    "target": "启用以在新标签页中打开新文件（或已打开的现有标签页）。禁用以使用 Obsidian 默认行为。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "This shouldn't be necessary, but you can manually enable custom extensions here.",
+                    "target": "这通常不需要，但您可以在此处手动启用自定义扩展。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter extension names (without the dot, ie, just docx separated by newlines).",
+                    "target": "输入扩展名（不带点号，即 docx，用换行符分隔）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Tab Default",
+                    "target": "新标签页默认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "PDF Default App",
+                    "target": "PDF 默认应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default app only when Ctrl/Cmd-Key is held",
+                    "target": "仅当按住 Ctrl/Cmd 键时使用默认应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open everything outside of Obsidian",
+                    "target": "在 Obsidian 外部打开所有内容"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open Outside Obsidian: Manual List",
+                    "target": "在 Obsidian 外部打开：手动列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Manual List",
+                    "target": "手动列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in same tab",
+                    "target": "在同一标签页中打开"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Next file will open in same tab",
+                    "target": "下一个文件将在同一标签页中打开"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener: New tab for all files enabled",
+                    "target": "Opener：已启用所有文件的新标签页"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener: New tab for all files disabled",
+                    "target": "Opener：已禁用所有文件的新标签页"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener: Open all PDFs with default app enabled",
+                    "target": "Opener：已启用使用默认应用打开所有 PDF"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener: Open all PDFs with default app disabled",
+                    "target": "Opener：已禁用使用默认应用打开所有 PDF"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opening external file with default app (Opener Plugin)",
+                    "target": "正在使用默认应用打开外部文件（Opener 插件）"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener Tip: Hold Cmd/Ctrl key to open with default app",
+                    "target": "Opener 提示：按住 Cmd/Ctrl 键使用默认应用打开"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Opener: This is a Linked Tab! Opening in same tab therefore.",
+                    "target": "打开器：这是一个链接标签页！因此将在同一标签页中打开。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open next file in same tab (Obsidian default behavior)",
+                    "target": "在同一标签页中打开下一个文件（Obsidian 默认行为）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable new tab for all files",
+                    "target": "为所有文件启用新标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable new tab for all files",
+                    "target": "为所有文件禁用新标签页"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Enable open all PDFs with default app",
+                    "target": "启用使用默认应用打开所有 PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Disable open all PDFs with default app",
+                    "target": "禁用使用默认应用打开所有 PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Graph View in new tab",
+                    "target": "在新标签页中打开图谱视图"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"New Tab Default\")",
+                    "target": "setName(\"New Tab Default\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Enable to open new files in a new tab (or existing tab, if it was previously opened). Disable for default Obsidian behavior.\"\n    )",
+                    "target": "setDesc(\n      \"Enable to open new files in a new tab (or existing tab, if it was previously opened). Disable for default Obsidian behavior.\"\n    )"
+                },
+                {
+                    "source": "setName(\"PDF Default App\")",
+                    "target": "setName(\"PDF Default App\")"
+                },
+                {
+                    "source": "setName(\"Default app only when Ctrl/Cmd-Key is held\")",
+                    "target": "setName(\"Default app only when Ctrl/Cmd-Key is held\")"
+                },
+                {
+                    "source": "setName(\"Open everything outside of Obsidian\")",
+                    "target": "setName(\"Open everything outside of Obsidian\")"
+                },
+                {
+                    "source": "setName(\"Open Outside Obsidian: Manual List\")",
+                    "target": "setName(\"Open Outside Obsidian: Manual List\")"
+                },
+                {
+                    "source": "setDesc(\"This shouldn't be necessary, but you can manually enable custom extensions here.\")",
+                    "target": "setDesc(\"This shouldn't be necessary, but you can manually enable custom extensions here.\")"
+                },
+                {
+                    "source": "setName(\"Manual List\")",
+                    "target": "setName(\"Manual List\")"
+                },
+                {
+                    "source": "setDesc(\"Enter extension names (without the dot, ie, just docx separated by newlines).\")",
+                    "target": "setDesc(\"Enter extension names (without the dot, ie, just docx separated by newlines).\")"
+                },
+                {
+                    "source": "log(\"loading \" + this.manifest.name + \" plugin\")",
+                    "target": "log(\"loading \" + this.manifest.name + \" plugin\")"
+                },
+                {
+                    "source": "log(\"unloading \" + this.manifest.name + \" plugin\")",
+                    "target": "log(\"unloading \" + this.manifest.name + \" plugin\")"
+                },
+                {
+                    "source": "Notice(\"Next file will open in same tab\")",
+                    "target": "Notice(\"Next file will open in same tab\")"
+                },
+                {
+                    "source": "Notice(\"Opener: New tab for all files enabled\")",
+                    "target": "Notice(\"Opener: New tab for all files enabled\")"
+                },
+                {
+                    "source": "Notice(\"Opener: New tab for all files disabled\")",
+                    "target": "Notice(\"Opener: New tab for all files disabled\")"
+                },
+                {
+                    "source": "Notice(\"Opener: Open all PDFs with default app enabled\")",
+                    "target": "Notice(\"Opener: Open all PDFs with default app enabled\")"
+                },
+                {
+                    "source": "Notice(\"Opener: Open all PDFs with default app disabled\")",
+                    "target": "Notice(\"Opener: Open all PDFs with default app disabled\")"
+                },
+                {
+                    "source": "setTitle(\"Open in same tab\")",
+                    "target": "setTitle(\"Open in same tab\")"
+                },
+                {
+                    "source": "Notice(\"Opening external file with default app (Opener Plugin)\")",
+                    "target": "Notice(\"Opening external file with default app (Opener Plugin)\")"
+                },
+                {
+                    "source": "Notice(\"Opener Tip: Hold Cmd/Ctrl key to open with default app\")",
+                    "target": "Notice(\"Opener Tip: Hold Cmd/Ctrl key to open with default app\")"
+                },
+                {
+                    "source": "Notice(\"Opener: This is a Linked Tab! Opening in same tab therefore.\")",
+                    "target": "Notice(\"Opener: This is a Linked Tab! Opening in same tab therefore.\")"
+                },
+                {
+                    "source": "log(\"Opener-Plugin: Strange floating object found (no window)\", win);\n            (_a2 = win.children) == null ? void 0 : _a2.forEach((tabs) => {\n              var _a3;\n              if ((tabs == null ? void 0 : tabs.type) !== \"tabs\")",
+                    "target": "log(\"Opener-Plugin: Strange floating object found (no window)\", win);\n            (_a2 = win.children) == null ? void 0 : _a2.forEach((tabs) => {\n              var _a3;\n              if ((tabs == null ? void 0 : tabs.type) !== \"tabs\")"
+                },
+                {
+                    "source": "log(\"Opener-Plugin: Strange floating object found (no tabs)\", tabs);\n              (_a3 = tabs.children) == null ? void 0 : _a3.forEach((leaf) => {\n                if ((leaf == null ? void 0 : leaf.type) !== \"leaf\")",
+                    "target": "log(\"Opener-Plugin: Strange floating object found (no tabs)\", tabs);\n              (_a3 = tabs.children) == null ? void 0 : _a3.forEach((leaf) => {\n                if ((leaf == null ? void 0 : leaf.type) !== \"leaf\")"
+                },
+                {
+                    "source": "name: \"Open next file in same tab (Obsidian default behavior)\"",
+                    "target": "name: \"Open next file in same tab (Obsidian default behavior)\""
+                },
+                {
+                    "source": "name: \"Enable new tab for all files\"",
+                    "target": "name: \"Enable new tab for all files\""
+                },
+                {
+                    "source": "name: \"Disable new tab for all files\"",
+                    "target": "name: \"Disable new tab for all files\""
+                },
+                {
+                    "source": "name: \"Enable open all PDFs with default app\"",
+                    "target": "name: \"Enable open all PDFs with default app\""
+                },
+                {
+                    "source": "name: \"Disable open all PDFs with default app\"",
+                    "target": "name: \"Disable open all PDFs with default app\""
+                },
+                {
+                    "source": "name: \"Open Graph View in new tab\"",
+                    "target": "name: \"Open Graph View in new tab\""
+                }
+            ]
+        }
+    }
+}
