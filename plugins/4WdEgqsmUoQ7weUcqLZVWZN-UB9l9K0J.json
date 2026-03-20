@@ -1,0 +1,277 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "calendar",
+        "version": "1.0.0",
+        "title": "Calendar",
+        "description": "Calendar Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.10",
+        "author": "AS"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Calendar] Failed to find daily notes folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[Calendar] Failed to find weekly notes folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How many words should be represented by a single dot?"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show a confirmation modal before creating a new note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable this to add a column with the week number"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "For more syntax help, refer to format reference"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "New weekly notes will be placed here"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set this if you want to use a locale different from the default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Words per dot"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Start week on:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm before creating new note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show week number"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Weekly note format"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Weekly note folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Override locale:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Weekly Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reveal active note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⚠️ Daily Notes plugin not enabled"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog)."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "General Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Weekly Note Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced Settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Never mind"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New Daily Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "New Weekly Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Previous Month"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "tooltip",
+                    "source": "Next Month"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Confirm before creating new note\")",
+                    "target": "setName(\"Confirm before creating new note\")"
+                },
+                {
+                    "source": "setDesc(\"Show a confirmation modal before creating a new note\")",
+                    "target": "setDesc(\"Show a confirmation modal before creating a new note\")"
+                },
+                {
+                    "source": "setName(\"Show week number\")",
+                    "target": "setName(\"Show week number\")"
+                },
+                {
+                    "source": "setDesc(\"Enable this to add a column with the week number\")",
+                    "target": "setDesc(\"Enable this to add a column with the week number\")"
+                },
+                {
+                    "source": "setName(\"Weekly note format\")",
+                    "target": "setName(\"Weekly note format\")"
+                },
+                {
+                    "source": "setDesc(\"For more syntax help, refer to format reference\")",
+                    "target": "setDesc(\"For more syntax help, refer to format reference\")"
+                },
+                {
+                    "source": "setName(\"Weekly note folder\")",
+                    "target": "setName(\"Weekly note folder\")"
+                },
+                {
+                    "source": "setDesc(\"New weekly notes will be placed here\")",
+                    "target": "setDesc(\"New weekly notes will be placed here\")"
+                },
+                {
+                    "source": "setName(\"Override locale:\")",
+                    "target": "setName(\"Override locale:\")"
+                },
+                {
+                    "source": "setDesc(\"Set this if you want to use a locale different from the default\")",
+                    "target": "setDesc(\"Set this if you want to use a locale different from the default\")"
+                },
+                {
+                    "source": "text: \"⚠️ Daily Notes plugin not enabled\"",
+                    "target": "text: \"⚠️ Daily Notes plugin not enabled\""
+                },
+                {
+                    "source": "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\"",
+                    "target": "text: \"The calendar is best used in conjunction with either the Daily Notes plugin or the Periodic Notes plugin (available in the Community Plugins catalog).\""
+                },
+                {
+                    "source": "text: \"General Settings\"",
+                    "target": "text: \"General Settings\""
+                },
+                {
+                    "source": "text: \"Weekly Note Settings\"",
+                    "target": "text: \"Weekly Note Settings\""
+                },
+                {
+                    "source": "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\"",
+                    "target": "text: \"Note: Weekly Note settings are moving. You are encouraged to install the 'Periodic Notes' plugin to keep the functionality in the future.\""
+                },
+                {
+                    "source": "text: \"Advanced Settings\"",
+                    "target": "text: \"Advanced Settings\""
+                },
+                {
+                    "source": "text: \"Never mind\"",
+                    "target": "text: \"Never mind\""
+                },
+                {
+                    "source": "text: `File ${filename} does not exist. Would you like to create it?`",
+                    "target": "text: `File ${filename} does not exist. Would you like to create it?`"
+                },
+                {
+                    "source": "textContent = `${/*todayDisplayStr*/ ctx[4]}`",
+                    "target": "textContent = `${/*todayDisplayStr*/ ctx[4]}`"
+                },
+                {
+                    "source": "textContent = \"W\"",
+                    "target": "textContent = \"W\""
+                },
+                {
+                    "source": "name: \"Open view\"",
+                    "target": "name: \"Open view\""
+                },
+                {
+                    "source": "name: \"Open Weekly Note\"",
+                    "target": "name: \"Open Weekly Note\""
+                },
+                {
+                    "source": "name: \"Reveal active note\"",
+                    "target": "name: \"Reveal active note\""
+                }
+            ]
+        }
+    }
+}
